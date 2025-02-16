@@ -770,32 +770,6 @@ def main():
     dataset.extend(data1 + data2 + data3 + data4)
     clear_dataset.extend(data1 + data2 + data3 + data4)
 
-    # # Object should be outside of bus and car
-    # based_obj = vehicle + plant
-    # reference_obj = vehicle
-    #
-    # data1 = create_data(based_obj, reference_obj,
-    #                     relation="left",
-    #                     context_format_list=["{:} is to the left of {:}", "{:} is on the left of {:}"],
-    #                     label_list=["external relative"])
-    #
-    # data2 = create_data(based_obj, reference_obj,
-    #                     relation="right",
-    #                     context_format_list=["{:} is to the right of {:}", "{:} is on the right of {:}"],
-    #                     label_list=["external relative"])
-    #
-    # data3 = create_data(based_obj, reference_obj,
-    #                     relation="front",
-    #                     context_format_list=["{:} is in front of {:}"],
-    #                     label_list=["external relative"])
-    #
-    # data4 = create_data(based_obj, reference_obj,
-    #                     relation="back",
-    #                     context_format_list=["{:} is behind {:}", "{:} is back of {:}"],
-    #                     label_list=["external relative"])
-    # dataset.extend(data1 + data2 + data3 + data4)
-    # clear_dataset.extend(copy.deepcopy(data1) + copy.deepcopy(data2)  + copy.deepcopy(data3)  + copy.deepcopy(data4) )
-
     random.shuffle(dataset)
     for i, data in enumerate(dataset):
         dataset[i]["id"] = "FRTEXT{:06d}".format(i)
