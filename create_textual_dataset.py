@@ -88,6 +88,7 @@ def create_image_dataset(dataset, object_with_dir, specify_direction=False, filt
                     image_dataset.append(image_data_new)
             else:
                 image_data_new = copy.deepcopy(image_data)
+                image_data_new["original_context"] = copy.deepcopy(image_data_new["context"])
                 image_dataset.append(image_data_new)
         else:
             image_data_new = copy.deepcopy(image_data)

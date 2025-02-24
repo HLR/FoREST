@@ -64,7 +64,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cat is on the left of a container."
       },
       {
          "id": "FRTEXT000002_front",
@@ -232,7 +232,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "An umbrella is behind a tree."
       },
       {
          "id": "FRTEXT000006",
@@ -245,7 +245,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A suitcase is back of a box."
       },
       {
          "id": "FRTEXT000007_front",
@@ -361,7 +361,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A box is back of a suitcase."
       },
       {
          "id": "FRTEXT000010_front",
@@ -478,7 +478,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A deer is back of a container."
       },
       {
          "id": "FRTEXT000013",
@@ -491,7 +491,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "An umbrella is in front of a box."
       },
       {
          "id": "FRCLTEXT001565",
@@ -503,7 +503,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "An umbrella is on the right of a bag."
       },
       {
          "id": "FRTEXT000015_front",
@@ -568,7 +568,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A box is on the right of a container."
       },
       {
          "id": "FRCLTEXT001792",
@@ -580,7 +580,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A dog is behind a fire hydrant."
       },
       {
          "id": "FRCLTEXT000717",
@@ -592,7 +592,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bench is in front of a suitcase."
       },
       {
          "id": "FRTEXT000019",
@@ -605,7 +605,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bag is on the left of a container."
       },
       {
          "id": "FRCLTEXT000959",
@@ -617,7 +617,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A dog is back of a water tank."
       },
       {
          "id": "FRCLTEXT000385",
@@ -629,7 +629,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A dog is in front of a suitcase."
       },
       {
          "id": "FRCLTEXT002258",
@@ -641,7 +641,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A water tank is on the left of a suitcase."
       },
       {
          "id": "FRTEXT000023_front",
@@ -758,7 +758,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A tree is on the right of a box."
       },
       {
          "id": "FRTEXT000026_front",
@@ -978,7 +978,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cow is on the left of a fire hydrant."
       },
       {
          "id": "FRTEXT000031",
@@ -991,7 +991,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bench is back of a container."
       },
       {
          "id": "FRCLTEXT001763",
@@ -1003,7 +1003,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chicken is to the right of a tree."
       },
       {
          "id": "FRCLTEXT002215",
@@ -1015,7 +1015,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A water tank is behind an umbrella."
       },
       {
          "id": "FRTEXT000034_front",
@@ -1295,7 +1295,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A tree is on the right of an umbrella."
       },
       {
          "id": "FRCLTEXT000923",
@@ -1307,7 +1307,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chicken is to the left of a water tank."
       },
       {
          "id": "FRCLTEXT002745",
@@ -1319,7 +1319,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A car is to the right of a water tank."
       },
       {
          "id": "FRTEXT000042_front",
@@ -1383,7 +1383,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chair is to the right of a fire hydrant."
       },
       {
          "id": "FRCLTEXT002253",
@@ -1395,7 +1395,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bench is back of a fire hydrant."
       },
       {
          "id": "FRCLTEXT002249",
@@ -1407,7 +1407,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cat is back of a water tank."
       },
       {
          "id": "FRTEXT000046_front",
@@ -1479,7 +1479,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A dog is to the left of a water tank."
       },
       {
          "id": "FRCLTEXT000805",
@@ -1491,7 +1491,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chicken is in front of a suitcase."
       },
       {
          "id": "FRTEXT000049_front",
@@ -1719,7 +1719,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bus is to the right of a water tank."
       },
       {
          "id": "FRTEXT000054_front",
@@ -1783,7 +1783,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chair is in front of an umbrella."
       },
       {
          "id": "FRTEXT000056_front",
@@ -1848,7 +1848,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A suitcase is on the right of a box."
       },
       {
          "id": "FRCLTEXT002338",
@@ -1860,7 +1860,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A car is in front of a suitcase."
       },
       {
          "id": "FRCLTEXT001882",
@@ -1872,7 +1872,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A suitcase is to the left of a bag."
       },
       {
          "id": "FRTEXT000060_front",
@@ -2368,7 +2368,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A box is on the right of a tree."
       },
       {
          "id": "FRTEXT000070",
@@ -2381,7 +2381,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chair is on the left of a container."
       },
       {
          "id": "FRTEXT000071_front",
@@ -2617,7 +2617,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A water tank is on the right of a suitcase."
       },
       {
          "id": "FRTEXT000076_front",
@@ -2681,7 +2681,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bus is to the right of a suitcase."
       },
       {
          "id": "FRTEXT000078_front",
@@ -2745,7 +2745,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A car is to the left of a tree."
       },
       {
          "id": "FRTEXT000080_front",
@@ -3017,7 +3017,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bicycle is in front of a water tank."
       },
       {
          "id": "FRCLTEXT000975",
@@ -3029,7 +3029,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A box is back of a fire hydrant."
       },
       {
          "id": "FRTEXT000087",
@@ -3042,7 +3042,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A dog is back of a container."
       },
       {
          "id": "FRTEXT000088_front",
@@ -3366,7 +3366,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A horse is back of a suitcase."
       },
       {
          "id": "FRTEXT000095_front",
@@ -3482,7 +3482,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cow is to the right of a water tank."
       },
       {
          "id": "FRTEXT000098_front",
@@ -3598,7 +3598,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bus is on the right of a tree."
       },
       {
          "id": "FRTEXT000101_front",
@@ -3827,7 +3827,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chicken is on the right of a box."
       },
       {
          "id": "FRTEXT000106_front",
@@ -3943,7 +3943,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cow is behind a water tank."
       },
       {
          "id": "FRTEXT000109_front",
@@ -4180,7 +4180,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bench is on the right of a box."
       },
       {
          "id": "FRTEXT000114_front",
@@ -4348,7 +4348,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "An umbrella is on the left of a tree."
       },
       {
          "id": "FRTEXT000118_front",
@@ -4464,7 +4464,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A container is to the left of a water tank."
       },
       {
          "id": "FRTEXT000121_front",
@@ -4536,7 +4536,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A sheep is on the right of a water tank."
       },
       {
          "id": "FRTEXT000123_front",
@@ -4652,7 +4652,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A dog is back of a bag."
       },
       {
          "id": "FRTEXT000126_front",
@@ -4768,7 +4768,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A water tank is on the left of a fire hydrant."
       },
       {
          "id": "FRTEXT000129_front",
@@ -4833,7 +4833,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "An umbrella is on the right of a box."
       },
       {
          "id": "FRTEXT000131_front",
@@ -4897,7 +4897,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cow is on the right of a fire hydrant."
       },
       {
          "id": "FRCLTEXT000862",
@@ -4909,7 +4909,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A car is in front of a bag."
       },
       {
          "id": "FRTEXT000134",
@@ -4922,7 +4922,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A car is on the right of a container."
       },
       {
          "id": "FRTEXT000135_front",
@@ -4986,7 +4986,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A deer is back of a suitcase."
       },
       {
          "id": "FRTEXT000137",
@@ -4999,7 +4999,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cat is on the left of a box."
       },
       {
          "id": "FRCLTEXT001686",
@@ -5011,7 +5011,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A suitcase is on the right of an umbrella."
       },
       {
          "id": "FRTEXT000139_front",
@@ -5127,7 +5127,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A suitcase is behind a water tank."
       },
       {
          "id": "FRTEXT000142_front",
@@ -5251,7 +5251,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A container is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT000145_front",
@@ -5315,7 +5315,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A container is behind an umbrella."
       },
       {
          "id": "FRCLTEXT002204",
@@ -5327,7 +5327,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chair is on the right of an umbrella."
       },
       {
          "id": "FRTEXT000148_front",
@@ -5391,7 +5391,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A container is to the left of an umbrella."
       },
       {
          "id": "FRTEXT000150_front",
@@ -5456,7 +5456,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cow is in front of a container."
       },
       {
          "id": "FRTEXT000152_front",
@@ -5676,7 +5676,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "An umbrella is to the left of a fire hydrant."
       },
       {
          "id": "FRTEXT000157_front",
@@ -6052,7 +6052,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A deer is on the left of a water tank."
       },
       {
          "id": "FRTEXT000165_front",
@@ -6444,7 +6444,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cat is to the right of a bag."
       },
       {
          "id": "FRTEXT000173_front",
@@ -6664,7 +6664,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A dog is on the left of an umbrella."
       },
       {
          "id": "FRCLTEXT002322",
@@ -6676,7 +6676,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bicycle is back of a water tank."
       },
       {
          "id": "FRTEXT000179",
@@ -6689,7 +6689,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A fire hydrant is in front of a box."
       },
       {
          "id": "FRTEXT000180_front",
@@ -6753,7 +6753,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chair is to the left of an umbrella."
       },
       {
          "id": "FRTEXT000182",
@@ -6766,7 +6766,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cat is on the right of a box."
       },
       {
          "id": "FRTEXT000183_front",
@@ -6830,7 +6830,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A dog is to the left of a fire hydrant."
       },
       {
          "id": "FRTEXT000185_front",
@@ -6954,7 +6954,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cat is on the right of a suitcase."
       },
       {
          "id": "FRTEXT000188_front",
@@ -7070,7 +7070,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A fire hydrant is in front of an umbrella."
       },
       {
          "id": "FRCLTEXT000377",
@@ -7082,7 +7082,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A container is behind a fire hydrant."
       },
       {
          "id": "FRTEXT000192_front",
@@ -7302,7 +7302,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A sheep is in front of a suitcase."
       },
       {
          "id": "FRTEXT000197_front",
@@ -7694,7 +7694,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A fire hydrant is behind an umbrella."
       },
       {
          "id": "FRTEXT000205_front",
@@ -7819,7 +7819,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chicken is on the left of a box."
       },
       {
          "id": "FRTEXT000208_front",
@@ -7936,7 +7936,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chair is back of a box."
       },
       {
          "id": "FRTEXT000211_front",
@@ -8312,7 +8312,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A horse is to the left of a suitcase."
       },
       {
          "id": "FRTEXT000219_front",
@@ -8376,7 +8376,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chair is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT000221_front",
@@ -8492,7 +8492,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "An umbrella is in front of a suitcase."
       },
       {
          "id": "FRTEXT000224_front",
@@ -8556,7 +8556,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bag is on the left of a tree."
       },
       {
          "id": "FRTEXT000226_front",
@@ -8672,7 +8672,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cow is behind a box."
       },
       {
          "id": "FRTEXT000229_front",
@@ -8736,7 +8736,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A fire hydrant is on the left of a bag."
       },
       {
          "id": "FRCLTEXT001967",
@@ -8748,7 +8748,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bus is on the left of an umbrella."
       },
       {
          "id": "FRTEXT000232_front",
@@ -8917,7 +8917,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A tree is back of a box."
       },
       {
          "id": "FRTEXT000236_front",
@@ -8982,7 +8982,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chair is in front of a container."
       },
       {
          "id": "FRTEXT000238_front",
@@ -9106,7 +9106,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A dog is in front of a bag."
       },
       {
          "id": "FRTEXT000241_front",
@@ -9222,7 +9222,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A horse is in front of a box."
       },
       {
          "id": "FRTEXT000244",
@@ -9235,7 +9235,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A water tank is on the left of a box."
       },
       {
          "id": "FRTEXT000245_front",
@@ -9568,7 +9568,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chair is on the right of a container."
       },
       {
          "id": "FRTEXT000252_front",
@@ -9684,7 +9684,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bicycle is in front of a fire hydrant."
       },
       {
          "id": "FRCLTEXT001521",
@@ -9696,7 +9696,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A container is in front of a suitcase."
       },
       {
          "id": "FRTEXT000256_front",
@@ -9864,7 +9864,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A horse is in front of an umbrella."
       },
       {
          "id": "FRTEXT000260_front",
@@ -9980,7 +9980,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A deer is to the right of a bag."
       },
       {
          "id": "FRTEXT000263_front",
@@ -10157,7 +10157,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A sheep is on the left of a container."
       },
       {
          "id": "FRCLTEXT001652",
@@ -10169,7 +10169,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A water tank is to the right of a fire hydrant."
       },
       {
          "id": "FRCLTEXT002779",
@@ -10181,7 +10181,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cat is to the right of a water tank."
       },
       {
          "id": "FRTEXT000269_front",
@@ -10245,7 +10245,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A fire hydrant is in front of a bag."
       },
       {
          "id": "FRTEXT000271_front",
@@ -10361,7 +10361,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A container is on the right of a water tank."
       },
       {
          "id": "FRTEXT000274_front",
@@ -10426,7 +10426,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cow is back of a container."
       },
       {
          "id": "FRTEXT000276_front",
@@ -10542,7 +10542,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A sheep is to the right of a box."
       },
       {
          "id": "FRTEXT000279_front",
@@ -10763,7 +10763,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A box is back of a container."
       },
       {
          "id": "FRCLTEXT000570",
@@ -10775,7 +10775,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bicycle is on the left of a tree."
       },
       {
          "id": "FRTEXT000285_front",
@@ -10892,7 +10892,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bench is in front of a container."
       },
       {
          "id": "FRTEXT000288_front",
@@ -10956,7 +10956,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A fire hydrant is on the left of a suitcase."
       },
       {
          "id": "FRTEXT000290_front",
@@ -11072,7 +11072,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A dog is on the left of a suitcase."
       },
       {
          "id": "FRCLTEXT001581",
@@ -11084,7 +11084,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A car is behind a bag."
       },
       {
          "id": "FRTEXT000294_front",
@@ -11156,7 +11156,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A box is to the left of a tree."
       },
       {
          "id": "FRCLTEXT002345",
@@ -11168,7 +11168,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A deer is in front of a water tank."
       },
       {
          "id": "FRTEXT000297_front",
@@ -11232,7 +11232,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A box is to the left of a water tank."
       },
       {
          "id": "FRTEXT000299_front",
@@ -11408,7 +11408,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A dog is to the right of a tree."
       },
       {
          "id": "FRTEXT000303_front",
@@ -11472,7 +11472,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A water tank is to the left of a bag."
       },
       {
          "id": "FRTEXT000305_front",
@@ -11752,7 +11752,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A sheep is in front of an umbrella."
       },
       {
          "id": "FRTEXT000311_front",
@@ -11824,7 +11824,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chicken is behind an umbrella."
       },
       {
          "id": "FRCLTEXT000917",
@@ -11836,7 +11836,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cow is to the right of an umbrella."
       },
       {
          "id": "FRTEXT000314_front",
@@ -11900,7 +11900,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A horse is on the left of a bag."
       },
       {
          "id": "FRTEXT000316_front",
@@ -11964,7 +11964,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A container is on the left of a fire hydrant."
       },
       {
          "id": "FRTEXT000318_front",
@@ -12288,7 +12288,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A box is on the right of a bag."
       },
       {
          "id": "FRTEXT000325_front",
@@ -12404,7 +12404,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A horse is behind a tree."
       },
       {
          "id": "FRCLTEXT001818",
@@ -12416,7 +12416,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A car is in front of a fire hydrant."
       },
       {
          "id": "FRCLTEXT000380",
@@ -12428,7 +12428,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bus is on the right of an umbrella."
       },
       {
          "id": "FRTEXT000330_front",
@@ -12500,7 +12500,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A container is to the left of a bag."
       },
       {
          "id": "FRCLTEXT000256",
@@ -12512,7 +12512,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chicken is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT000333_front",
@@ -12636,7 +12636,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A horse is to the left of a water tank."
       },
       {
          "id": "FRTEXT000336_front",
@@ -12700,7 +12700,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A box is in front of a bag."
       },
       {
          "id": "FRTEXT000338",
@@ -12713,7 +12713,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A sheep is in front of a container."
       },
       {
          "id": "FRCLTEXT001748",
@@ -12725,7 +12725,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bag is in front of an umbrella."
       },
       {
          "id": "FRCLTEXT000620",
@@ -12737,7 +12737,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A box is behind a tree."
       },
       {
          "id": "FRTEXT000341_front",
@@ -12809,7 +12809,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bicycle is to the right of a tree."
       },
       {
          "id": "FRTEXT000343_front",
@@ -12933,7 +12933,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chair is on the left of a water tank."
       },
       {
          "id": "FRCLTEXT002126",
@@ -12945,7 +12945,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A sheep is on the right of a suitcase."
       },
       {
          "id": "FRCLTEXT002307",
@@ -12957,7 +12957,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A container is back of a water tank."
       },
       {
          "id": "FRTEXT000348_front",
@@ -13178,7 +13178,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A box is in front of a container."
       },
       {
          "id": "FRCLTEXT001774",
@@ -13190,7 +13190,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A horse is on the left of a fire hydrant."
       },
       {
          "id": "FRTEXT000354_front",
@@ -13262,7 +13262,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A fire hydrant is on the left of a tree."
       },
       {
          "id": "FRCLTEXT000209",
@@ -13274,7 +13274,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chicken is in front of a water tank."
       },
       {
          "id": "FRTEXT000357_front",
@@ -13338,7 +13338,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A dog is in front of a water tank."
       },
       {
          "id": "FRCLTEXT000061",
@@ -13350,7 +13350,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chicken is on the left of a bag."
       },
       {
          "id": "FRTEXT000360_front",
@@ -13466,7 +13466,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bench is in front of an umbrella."
       },
       {
          "id": "FRTEXT000363_front",
@@ -13754,7 +13754,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A dog is behind an umbrella."
       },
       {
          "id": "FRTEXT000369_front",
@@ -13818,7 +13818,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chair is behind a suitcase."
       },
       {
          "id": "FRTEXT000371",
@@ -13831,7 +13831,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chair is back of a container."
       },
       {
          "id": "FRTEXT000372_front",
@@ -13903,7 +13903,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bus is back of a tree."
       },
       {
          "id": "FRCLTEXT002248",
@@ -13915,7 +13915,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cow is on the left of a suitcase."
       },
       {
          "id": "FRTEXT000375_front",
@@ -14039,7 +14039,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A car is to the right of a fire hydrant."
       },
       {
          "id": "FRTEXT000378_front",
@@ -14163,7 +14163,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bag is behind an umbrella."
       },
       {
          "id": "FRCLTEXT000016",
@@ -14175,7 +14175,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A deer is back of an umbrella."
       },
       {
          "id": "FRTEXT000382",
@@ -14188,7 +14188,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "An umbrella is on the left of a box."
       },
       {
          "id": "FRTEXT000383_front",
@@ -14252,7 +14252,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bicycle is in front of a suitcase."
       },
       {
          "id": "FRTEXT000385_front",
@@ -14368,7 +14368,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A box is on the right of a suitcase."
       },
       {
          "id": "FRTEXT000388_front",
@@ -14544,7 +14544,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bus is back of a fire hydrant."
       },
       {
          "id": "FRCLTEXT001495",
@@ -14556,7 +14556,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A box is to the left of a fire hydrant."
       },
       {
          "id": "FRTEXT000393_front",
@@ -14673,7 +14673,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A water tank is back of a container."
       },
       {
          "id": "FRTEXT000396_front",
@@ -14737,7 +14737,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "An umbrella is behind a bag."
       },
       {
          "id": "FRTEXT000398_front",
@@ -14801,7 +14801,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "An umbrella is behind a water tank."
       },
       {
          "id": "FRTEXT000400_front",
@@ -14969,7 +14969,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A fire hydrant is to the right of a suitcase."
       },
       {
          "id": "FRCLTEXT001419",
@@ -14981,7 +14981,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cow is in front of a bag."
       },
       {
          "id": "FRTEXT000405_front",
@@ -15098,7 +15098,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A suitcase is in front of a box."
       },
       {
          "id": "FRTEXT000408_front",
@@ -15162,7 +15162,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cow is in front of a tree."
       },
       {
          "id": "FRTEXT000410_front",
@@ -15278,7 +15278,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bag is to the left of a water tank."
       },
       {
          "id": "FRTEXT000413_front",
@@ -15342,7 +15342,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A sheep is back of a tree."
       },
       {
          "id": "FRCLTEXT001488",
@@ -15354,7 +15354,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A car is to the left of an umbrella."
       },
       {
          "id": "FRTEXT000416_front",
@@ -15470,7 +15470,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A box is back of an umbrella."
       },
       {
          "id": "FRTEXT000419_front",
@@ -15534,7 +15534,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A sheep is on the right of an umbrella."
       },
       {
          "id": "FRTEXT000421_front",
@@ -15658,7 +15658,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chicken is behind a suitcase."
       },
       {
          "id": "FRTEXT000424_front",
@@ -15774,7 +15774,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chicken is on the left of a tree."
       },
       {
          "id": "FRTEXT000427",
@@ -15787,7 +15787,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A suitcase is on the left of a box."
       },
       {
          "id": "FRTEXT000428_front",
@@ -15911,7 +15911,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A suitcase is behind a bag."
       },
       {
          "id": "FRCLTEXT001143",
@@ -15923,7 +15923,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A sheep is back of an umbrella."
       },
       {
          "id": "FRCLTEXT001439",
@@ -15935,7 +15935,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bag is to the right of a fire hydrant."
       },
       {
          "id": "FRTEXT000433_front",
@@ -16052,7 +16052,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bench is on the left of a container."
       },
       {
          "id": "FRTEXT000436_front",
@@ -16228,7 +16228,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cow is in front of an umbrella."
       },
       {
          "id": "FRTEXT000440_front",
@@ -16500,7 +16500,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cat is in front of a tree."
       },
       {
          "id": "FRCLTEXT000439",
@@ -16512,7 +16512,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A horse is to the left of a tree."
       },
       {
          "id": "FRTEXT000447_front",
@@ -16992,7 +16992,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chicken is on the right of a water tank."
       },
       {
          "id": "FRCLTEXT002724",
@@ -17004,7 +17004,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A container is on the right of a fire hydrant."
       },
       {
          "id": "FRTEXT000458_front",
@@ -17120,7 +17120,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chair is in front of a water tank."
       },
       {
          "id": "FRCLTEXT000437",
@@ -17132,7 +17132,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A dog is on the left of a bag."
       },
       {
          "id": "FRTEXT000462_front",
@@ -17532,7 +17532,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A deer is to the right of a box."
       },
       {
          "id": "FRCLTEXT002594",
@@ -17544,7 +17544,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cow is to the left of a water tank."
       },
       {
          "id": "FRCLTEXT001104",
@@ -17556,7 +17556,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A horse is behind an umbrella."
       },
       {
          "id": "FRTEXT000472_front",
@@ -17673,7 +17673,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A suitcase is in front of a container."
       },
       {
          "id": "FRTEXT000475_front",
@@ -17797,7 +17797,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bench is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT000478_front",
@@ -17913,7 +17913,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A deer is to the left of an umbrella."
       },
       {
          "id": "FRTEXT000481_front",
@@ -18081,7 +18081,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A sheep is back of a box."
       },
       {
          "id": "FRTEXT000485_front",
@@ -18145,7 +18145,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A sheep is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT000487_front",
@@ -18209,7 +18209,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bag is to the right of an umbrella."
       },
       {
          "id": "FRCLTEXT002314",
@@ -18221,7 +18221,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bag is behind a suitcase."
       },
       {
          "id": "FRTEXT000490_front",
@@ -18405,7 +18405,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A car is on the right of an umbrella."
       },
       {
          "id": "FRTEXT000494_front",
@@ -18521,7 +18521,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A tree is behind a fire hydrant."
       },
       {
          "id": "FRCLTEXT002716",
@@ -18533,7 +18533,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A tree is in front of a water tank."
       },
       {
          "id": "FRTEXT000498_front",
@@ -18649,7 +18649,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A horse is to the right of a bag."
       },
       {
          "id": "FRCLTEXT000461",
@@ -18661,7 +18661,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bus is to the left of a box."
       },
       {
          "id": "FRTEXT000502_front",
@@ -18829,7 +18829,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bench is on the left of a water tank."
       },
       {
          "id": "FRTEXT000506_front",
@@ -18893,7 +18893,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A deer is in front of a suitcase."
       },
       {
          "id": "FRCLTEXT002514",
@@ -18905,7 +18905,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "An umbrella is in front of a fire hydrant."
       },
       {
          "id": "FRCLTEXT000363",
@@ -18917,7 +18917,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bench is on the left of a bag."
       },
       {
          "id": "FRTEXT000510_front",
@@ -19153,7 +19153,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A horse is to the left of a box."
       },
       {
          "id": "FRTEXT000515_front",
@@ -19381,7 +19381,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bag is to the right of a suitcase."
       },
       {
          "id": "FRCLTEXT001891",
@@ -19393,7 +19393,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chicken is behind a tree."
       },
       {
          "id": "FRTEXT000521_front",
@@ -19465,7 +19465,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A tree is on the right of a fire hydrant."
       },
       {
          "id": "FRTEXT000523_front",
@@ -19529,7 +19529,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bus is on the right of a box."
       },
       {
          "id": "FRTEXT000525",
@@ -19542,7 +19542,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "An umbrella is on the left of a container."
       },
       {
          "id": "FRTEXT000526_front",
@@ -19710,7 +19710,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A tree is on the right of a water tank."
       },
       {
          "id": "FRTEXT000530_front",
@@ -20034,7 +20034,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A deer is to the right of a tree."
       },
       {
          "id": "FRTEXT000537_front",
@@ -20202,7 +20202,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bicycle is behind an umbrella."
       },
       {
          "id": "FRTEXT000541_front",
@@ -20370,7 +20370,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bus is to the left of a tree."
       },
       {
          "id": "FRTEXT000545_front",
@@ -20650,7 +20650,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chicken is to the right of a fire hydrant."
       },
       {
          "id": "FRCLTEXT002630",
@@ -20662,7 +20662,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bench is to the right of a bag."
       },
       {
          "id": "FRTEXT000552_front",
@@ -20726,7 +20726,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A horse is behind a water tank."
       },
       {
          "id": "FRCLTEXT000787",
@@ -20738,7 +20738,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bicycle is to the left of a bag."
       },
       {
          "id": "FRTEXT000555_front",
@@ -21278,7 +21278,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cow is on the left of a bag."
       },
       {
          "id": "FRTEXT000566_front",
@@ -21462,7 +21462,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A deer is to the left of a box."
       },
       {
          "id": "FRTEXT000570_front",
@@ -21734,7 +21734,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A car is to the right of a bag."
       },
       {
          "id": "FRCLTEXT001022",
@@ -21746,7 +21746,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A water tank is to the left of a tree."
       },
       {
          "id": "FRTEXT000577_front",
@@ -21863,7 +21863,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chair is on the right of a box."
       },
       {
          "id": "FRTEXT000580_front",
@@ -22031,7 +22031,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A container is back of a box."
       },
       {
          "id": "FRTEXT000584_front",
@@ -22147,7 +22147,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bicycle is on the right of a bag."
       },
       {
          "id": "FRTEXT000587",
@@ -22160,7 +22160,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A dog is on the left of a box."
       },
       {
          "id": "FRTEXT000588_front",
@@ -22224,7 +22224,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bicycle is behind a fire hydrant."
       },
       {
          "id": "FRCLTEXT002668",
@@ -22236,7 +22236,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A horse is on the right of a tree."
       },
       {
          "id": "FRCLTEXT001659",
@@ -22248,7 +22248,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bag is to the left of a suitcase."
       },
       {
          "id": "FRCLTEXT002335",
@@ -22260,7 +22260,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A tree is to the left of a suitcase."
       },
       {
          "id": "FRTEXT000593_front",
@@ -22540,7 +22540,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A tree is on the right of a suitcase."
       },
       {
          "id": "FRTEXT000599_front",
@@ -22656,7 +22656,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A sheep is back of a suitcase."
       },
       {
          "id": "FRTEXT000602",
@@ -22669,7 +22669,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bus is on the right of a container."
       },
       {
          "id": "FRCLTEXT000152",
@@ -22681,7 +22681,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bicycle is to the right of a fire hydrant."
       },
       {
          "id": "FRTEXT000604_front",
@@ -22858,7 +22858,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A water tank is back of a box."
       },
       {
          "id": "FRTEXT000608_front",
@@ -22922,7 +22922,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A horse is on the left of an umbrella."
       },
       {
          "id": "FRTEXT000610_front",
@@ -22987,7 +22987,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A suitcase is on the left of a container."
       },
       {
          "id": "FRTEXT000612_front",
@@ -23051,7 +23051,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A sheep is to the left of a fire hydrant."
       },
       {
          "id": "FRTEXT000614_front",
@@ -23123,7 +23123,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A box is on the left of a suitcase."
       },
       {
          "id": "FRTEXT000616",
@@ -23136,7 +23136,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "An umbrella is back of a container."
       },
       {
          "id": "FRTEXT000617_front",
@@ -23200,7 +23200,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A container is back of a suitcase."
       },
       {
          "id": "FRTEXT000619_front",
@@ -23265,7 +23265,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A dog is in front of a box."
       },
       {
          "id": "FRCLTEXT001008",
@@ -23277,7 +23277,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A fire hydrant is in front of a tree."
       },
       {
          "id": "FRTEXT000622_front",
@@ -23506,7 +23506,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A dog is in front of a container."
       },
       {
          "id": "FRCLTEXT001216",
@@ -23518,7 +23518,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cat is back of a suitcase."
       },
       {
          "id": "FRTEXT000628_front",
@@ -23634,7 +23634,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chair is to the left of a bag."
       },
       {
          "id": "FRTEXT000631_front",
@@ -23810,7 +23810,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A water tank is back of a fire hydrant."
       },
       {
          "id": "FRTEXT000635_front",
@@ -23979,7 +23979,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A tree is back of a container."
       },
       {
          "id": "FRCLTEXT001390",
@@ -23991,7 +23991,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bench is behind a tree."
       },
       {
          "id": "FRCLTEXT002070",
@@ -24003,7 +24003,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A car is to the left of a suitcase."
       },
       {
          "id": "FRTEXT000641_front",
@@ -24067,7 +24067,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A container is on the right of a tree."
       },
       {
          "id": "FRTEXT000643",
@@ -24080,7 +24080,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A dog is on the right of a container."
       },
       {
          "id": "FRTEXT000644_front",
@@ -24248,7 +24248,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A sheep is on the left of an umbrella."
       },
       {
          "id": "FRTEXT000648_front",
@@ -24521,7 +24521,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A water tank is on the right of a box."
       },
       {
          "id": "FRTEXT000654_front",
@@ -24638,7 +24638,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A car is back of a container."
       },
       {
          "id": "FRTEXT000657_front",
@@ -24763,7 +24763,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cow is on the right of a container."
       },
       {
          "id": "FRTEXT000660_front",
@@ -24827,7 +24827,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cow is on the left of a tree."
       },
       {
          "id": "FRCLTEXT000797",
@@ -24839,7 +24839,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bus is on the left of a suitcase."
       },
       {
          "id": "FRCLTEXT001204",
@@ -24851,7 +24851,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A deer is on the left of a fire hydrant."
       },
       {
          "id": "FRTEXT000664",
@@ -24864,7 +24864,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bus is in front of a container."
       },
       {
          "id": "FRTEXT000665_front",
@@ -24929,7 +24929,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A water tank is in front of a container."
       },
       {
          "id": "FRCLTEXT001313",
@@ -24941,7 +24941,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bench is back of a bag."
       },
       {
          "id": "FRTEXT000668_front",
@@ -25057,7 +25057,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A suitcase is to the right of a bag."
       },
       {
          "id": "FRCLTEXT001464",
@@ -25069,7 +25069,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cow is in front of a water tank."
       },
       {
          "id": "FRTEXT000672_front",
@@ -25133,7 +25133,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "An umbrella is to the right of a water tank."
       },
       {
          "id": "FRTEXT000674_front",
@@ -25197,7 +25197,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A suitcase is on the left of a fire hydrant."
       },
       {
          "id": "FRTEXT000676_front",
@@ -25313,7 +25313,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "An umbrella is in front of a bag."
       },
       {
          "id": "FRTEXT000679_front",
@@ -25378,7 +25378,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bag is on the left of a box."
       },
       {
          "id": "FRTEXT000681_front",
@@ -25494,7 +25494,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A container is back of a tree."
       },
       {
          "id": "FRTEXT000684_front",
@@ -25946,7 +25946,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A dog is behind a suitcase."
       },
       {
          "id": "FRTEXT000693",
@@ -25959,7 +25959,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A fire hydrant is on the left of a container."
       },
       {
          "id": "FRCLTEXT000738",
@@ -25971,7 +25971,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A water tank is in front of an umbrella."
       },
       {
          "id": "FRCLTEXT002610",
@@ -25983,7 +25983,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chicken is in front of an umbrella."
       },
       {
          "id": "FRTEXT000696_front",
@@ -26107,7 +26107,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cat is to the right of an umbrella."
       },
       {
          "id": "FRCLTEXT002294",
@@ -26119,7 +26119,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A deer is on the left of a suitcase."
       },
       {
          "id": "FRCLTEXT000313",
@@ -26131,7 +26131,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chair is on the right of a suitcase."
       },
       {
          "id": "FRCLTEXT000563",
@@ -26143,7 +26143,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bench is in front of a bag."
       },
       {
          "id": "FRTEXT000702_front",
@@ -26320,7 +26320,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A fire hydrant is on the right of a container."
       },
       {
          "id": "FRTEXT000706_front",
@@ -26592,7 +26592,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "An umbrella is on the right of a suitcase."
       },
       {
          "id": "FRTEXT000712_front",
@@ -26656,7 +26656,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A suitcase is on the left of a water tank."
       },
       {
          "id": "FRCLTEXT001906",
@@ -26668,7 +26668,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bench is to the right of a suitcase."
       },
       {
          "id": "FRTEXT000715_front",
@@ -26940,7 +26940,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A dog is behind a tree."
       },
       {
          "id": "FRTEXT000721_front",
@@ -27056,7 +27056,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A deer is back of a water tank."
       },
       {
          "id": "FRCLTEXT001667",
@@ -27068,7 +27068,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chicken is to the right of a bag."
       },
       {
          "id": "FRTEXT000725_front",
@@ -27132,7 +27132,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A water tank is back of a tree."
       },
       {
          "id": "FRCLTEXT001975",
@@ -27144,7 +27144,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cat is behind a tree."
       },
       {
          "id": "FRCLTEXT000858",
@@ -27156,7 +27156,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chair is in front of a bag."
       },
       {
          "id": "FRTEXT000729_front",
@@ -27428,7 +27428,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A deer is back of a bag."
       },
       {
          "id": "FRTEXT000735_front",
@@ -27492,7 +27492,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A container is in front of an umbrella."
       },
       {
          "id": "FRCLTEXT000902",
@@ -27504,7 +27504,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A fire hydrant is on the right of a water tank."
       },
       {
          "id": "FRTEXT000738_front",
@@ -27568,7 +27568,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A water tank is behind a suitcase."
       },
       {
          "id": "FRCLTEXT001914",
@@ -27580,7 +27580,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bag is on the left of a fire hydrant."
       },
       {
          "id": "FRCLTEXT002140",
@@ -27592,7 +27592,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chair is in front of a tree."
       },
       {
          "id": "FRTEXT000742_front",
@@ -27656,7 +27656,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bench is to the right of an umbrella."
       },
       {
          "id": "FRTEXT000744_front",
@@ -27772,7 +27772,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bicycle is behind a box."
       },
       {
          "id": "FRCLTEXT000826",
@@ -27784,7 +27784,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A deer is behind a box."
       },
       {
          "id": "FRCLTEXT000891",
@@ -27796,7 +27796,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A deer is on the right of a water tank."
       },
       {
          "id": "FRTEXT000749_front",
@@ -28068,7 +28068,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A tree is in front of a bag."
       },
       {
          "id": "FRCLTEXT000705",
@@ -28080,7 +28080,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A tree is back of an umbrella."
       },
       {
          "id": "FRTEXT000756_front",
@@ -28144,7 +28144,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chicken is to the right of an umbrella."
       },
       {
          "id": "FRTEXT000758_front",
@@ -28372,7 +28372,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cat is on the left of an umbrella."
       },
       {
          "id": "FRCLTEXT001052",
@@ -28384,7 +28384,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A suitcase is to the right of a tree."
       },
       {
          "id": "FRCLTEXT002626",
@@ -28396,7 +28396,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bus is in front of a suitcase."
       },
       {
          "id": "FRTEXT000765",
@@ -28409,7 +28409,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A deer is on the right of a container."
       },
       {
          "id": "FRTEXT000766_front",
@@ -28526,7 +28526,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bench is in front of a box."
       },
       {
          "id": "FRTEXT000769_front",
@@ -28590,7 +28590,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bicycle is in front of a bag."
       },
       {
          "id": "FRTEXT000771_front",
@@ -28707,7 +28707,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A horse is back of a container."
       },
       {
          "id": "FRTEXT000774",
@@ -28720,7 +28720,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A fire hydrant is on the right of a box."
       },
       {
          "id": "FRCLTEXT002163",
@@ -28732,7 +28732,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chair is on the right of a water tank."
       },
       {
          "id": "FRTEXT000776_front",
@@ -29133,7 +29133,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A fire hydrant is back of a container."
       },
       {
          "id": "FRTEXT000784_front",
@@ -29466,7 +29466,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bag is in front of a box."
       },
       {
          "id": "FRTEXT000791_front",
@@ -29531,7 +29531,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A sheep is back of a container."
       },
       {
          "id": "FRCLTEXT001254",
@@ -29543,7 +29543,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bus is in front of a water tank."
       },
       {
          "id": "FRCLTEXT002083",
@@ -29555,7 +29555,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bag is behind a tree."
       },
       {
          "id": "FRTEXT000795_front",
@@ -29671,7 +29671,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A fire hydrant is back of a water tank."
       },
       {
          "id": "FRCLTEXT001395",
@@ -29683,7 +29683,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chair is on the right of a bag."
       },
       {
          "id": "FRTEXT000799_front",
@@ -29747,7 +29747,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bench is on the right of a water tank."
       },
       {
          "id": "FRTEXT000801_front",
@@ -29811,7 +29811,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cow is back of a bag."
       },
       {
          "id": "FRTEXT000803_front",
@@ -30135,7 +30135,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A box is behind a water tank."
       },
       {
          "id": "FRCLTEXT002762",
@@ -30147,7 +30147,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A container is in front of a water tank."
       },
       {
          "id": "FRCLTEXT000056",
@@ -30159,7 +30159,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bus is behind a box."
       },
       {
          "id": "FRCLTEXT000604",
@@ -30171,7 +30171,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A car is behind a tree."
       },
       {
          "id": "FRTEXT000813",
@@ -30184,7 +30184,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A water tank is in front of a box."
       },
       {
          "id": "FRTEXT000814_front",
@@ -30352,7 +30352,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bench is to the left of a tree."
       },
       {
          "id": "FRTEXT000818_front",
@@ -30424,7 +30424,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chicken is on the left of a suitcase."
       },
       {
          "id": "FRTEXT000820_front",
@@ -30592,7 +30592,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bus is in front of a bag."
       },
       {
          "id": "FRCLTEXT001201",
@@ -30604,7 +30604,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A tree is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT000825",
@@ -30617,7 +30617,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cat is in front of a box."
       },
       {
          "id": "FRTEXT000826_front",
@@ -30681,7 +30681,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cat is in front of an umbrella."
       },
       {
          "id": "FRTEXT000828_front",
@@ -30745,7 +30745,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A fire hydrant is on the right of an umbrella."
       },
       {
          "id": "FRCLTEXT001109",
@@ -30757,7 +30757,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "An umbrella is back of a fire hydrant."
       },
       {
          "id": "FRTEXT000831",
@@ -30770,7 +30770,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bench is on the left of a box."
       },
       {
          "id": "FRTEXT000832_front",
@@ -30886,7 +30886,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "An umbrella is on the right of a fire hydrant."
       },
       {
          "id": "FRCLTEXT001744",
@@ -30898,7 +30898,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A box is behind a bag."
       },
       {
          "id": "FRTEXT000836_front",
@@ -31066,7 +31066,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A car is on the right of a tree."
       },
       {
          "id": "FRCLTEXT000326",
@@ -31078,7 +31078,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bench is on the right of a tree."
       },
       {
          "id": "FRCLTEXT001364",
@@ -31090,7 +31090,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A fire hydrant is back of a tree."
       },
       {
          "id": "FRTEXT000842_front",
@@ -31214,7 +31214,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A deer is in front of a bag."
       },
       {
          "id": "FRCLTEXT000155",
@@ -31226,7 +31226,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "An umbrella is on the left of a water tank."
       },
       {
          "id": "FRCLTEXT000414",
@@ -31238,7 +31238,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bicycle is to the left of a suitcase."
       },
       {
          "id": "FRCLTEXT002042",
@@ -31250,7 +31250,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chicken is behind a fire hydrant."
       },
       {
          "id": "FRTEXT000848_front",
@@ -31314,7 +31314,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A horse is to the right of an umbrella."
       },
       {
          "id": "FRTEXT000850_front",
@@ -31430,7 +31430,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A sheep is to the left of a bag."
       },
       {
          "id": "FRCLTEXT000320",
@@ -31442,7 +31442,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A sheep is to the left of a water tank."
       },
       {
          "id": "FRCLTEXT000303",
@@ -31454,7 +31454,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A suitcase is on the left of an umbrella."
       },
       {
          "id": "FRTEXT000855_front",
@@ -31518,7 +31518,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bicycle is to the right of a water tank."
       },
       {
          "id": "FRCLTEXT002219",
@@ -31530,7 +31530,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A car is behind an umbrella."
       },
       {
          "id": "FRCLTEXT001915",
@@ -31542,7 +31542,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bus is to the right of a fire hydrant."
       },
       {
          "id": "FRCLTEXT002675",
@@ -31554,7 +31554,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A car is back of a box."
       },
       {
          "id": "FRTEXT000860_front",
@@ -31618,7 +31618,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bicycle is behind a bag."
       },
       {
          "id": "FRTEXT000862_front",
@@ -31682,7 +31682,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cat is to the left of a suitcase."
       },
       {
          "id": "FRTEXT000864_front",
@@ -31746,7 +31746,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A container is in front of a bag."
       },
       {
          "id": "FRCLTEXT001142",
@@ -31758,7 +31758,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cow is in front of a box."
       },
       {
          "id": "FRTEXT000867_front",
@@ -31822,7 +31822,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cat is to the left of a bag."
       },
       {
          "id": "FRCLTEXT001507",
@@ -31834,7 +31834,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bench is to the left of a suitcase."
       },
       {
          "id": "FRCLTEXT000577",
@@ -31846,7 +31846,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A suitcase is in front of a bag."
       },
       {
          "id": "FRCLTEXT000712",
@@ -31858,7 +31858,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bag is in front of a suitcase."
       },
       {
          "id": "FRCLTEXT000424",
@@ -31870,7 +31870,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A car is in front of a water tank."
       },
       {
          "id": "FRCLTEXT001996",
@@ -31882,7 +31882,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bicycle is to the left of a water tank."
       },
       {
          "id": "FRTEXT000874_front",
@@ -31998,7 +31998,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chicken is in front of a bag."
       },
       {
          "id": "FRTEXT000877_front",
@@ -32114,7 +32114,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bicycle is in front of an umbrella."
       },
       {
          "id": "FRCLTEXT002673",
@@ -32126,7 +32126,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A dog is to the right of a bag."
       },
       {
          "id": "FRTEXT000881_front",
@@ -32190,7 +32190,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cat is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT000883_front",
@@ -32410,7 +32410,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A box is in front of a tree."
       },
       {
          "id": "FRTEXT000888_front",
@@ -32950,7 +32950,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A container is in front of a tree."
       },
       {
          "id": "FRTEXT000899_front",
@@ -33238,7 +33238,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A car is in front of an umbrella."
       },
       {
          "id": "FRCLTEXT002665",
@@ -33250,7 +33250,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bench is on the left of an umbrella."
       },
       {
          "id": "FRCLTEXT002376",
@@ -33262,7 +33262,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bag is in front of a tree."
       },
       {
          "id": "FRTEXT000907_front",
@@ -33334,7 +33334,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bicycle is on the left of a box."
       },
       {
          "id": "FRTEXT000909_front",
@@ -33399,7 +33399,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "An umbrella is in front of a container."
       },
       {
          "id": "FRTEXT000911_front",
@@ -33463,7 +33463,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cow is on the right of a suitcase."
       },
       {
          "id": "FRTEXT000913_front",
@@ -33528,7 +33528,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A deer is on the left of a container."
       },
       {
          "id": "FRTEXT000915_front",
@@ -33592,7 +33592,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bus is to the left of a water tank."
       },
       {
          "id": "FRTEXT000917_front",
@@ -33872,7 +33872,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bus is back of an umbrella."
       },
       {
          "id": "FRTEXT000923_front",
@@ -33936,7 +33936,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A box is to the right of a fire hydrant."
       },
       {
          "id": "FRTEXT000925_front",
@@ -34060,7 +34060,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bicycle is in front of a tree."
       },
       {
          "id": "FRTEXT000928_front",
@@ -34177,7 +34177,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chicken is in front of a container."
       },
       {
          "id": "FRTEXT000931",
@@ -34190,7 +34190,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bicycle is on the left of a container."
       },
       {
          "id": "FRTEXT000932",
@@ -34203,7 +34203,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bus is on the left of a container."
       },
       {
          "id": "FRTEXT000933_front",
@@ -34327,7 +34327,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cow is to the left of an umbrella."
       },
       {
          "id": "FRCLTEXT000118",
@@ -34339,7 +34339,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A dog is in front of a fire hydrant."
       },
       {
          "id": "FRCLTEXT001585",
@@ -34351,7 +34351,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A deer is on the right of an umbrella."
       },
       {
          "id": "FRCLTEXT000995",
@@ -34363,7 +34363,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chicken is on the left of a fire hydrant."
       },
       {
          "id": "FRCLTEXT001416",
@@ -34375,7 +34375,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A horse is behind a fire hydrant."
       },
       {
          "id": "FRTEXT000940_front",
@@ -34447,7 +34447,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chair is behind a fire hydrant."
       },
       {
          "id": "FRTEXT000942_front",
@@ -34511,7 +34511,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A horse is in front of a bag."
       },
       {
          "id": "FRTEXT000944_front",
@@ -34739,7 +34739,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bench is back of a water tank."
       },
       {
          "id": "FRTEXT000949_front",
@@ -35063,7 +35063,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bus is in front of a tree."
       },
       {
          "id": "FRCLTEXT002038",
@@ -35075,7 +35075,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A deer is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT000957_front",
@@ -35243,7 +35243,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cow is behind a tree."
       },
       {
          "id": "FRTEXT000961_front",
@@ -35359,7 +35359,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A box is to the left of an umbrella."
       },
       {
          "id": "FRTEXT000964",
@@ -35372,7 +35372,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chicken is on the left of a container."
       },
       {
          "id": "FRTEXT000965_front",
@@ -35652,7 +35652,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chair is on the left of a tree."
       },
       {
          "id": "FRCLTEXT002437",
@@ -35664,7 +35664,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bicycle is in front of a box."
       },
       {
          "id": "FRTEXT000972_front",
@@ -35728,7 +35728,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A container is on the right of a suitcase."
       },
       {
          "id": "FRTEXT000974_front",
@@ -35792,7 +35792,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A deer is on the right of a fire hydrant."
       },
       {
          "id": "FRTEXT000976_front",
@@ -35856,7 +35856,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A box is on the right of a water tank."
       },
       {
          "id": "FRCLTEXT000881",
@@ -35868,7 +35868,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A container is in front of a box."
       },
       {
          "id": "FRCLTEXT001612",
@@ -35880,7 +35880,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bench is to the left of a fire hydrant."
       },
       {
          "id": "FRTEXT000980_front",
@@ -36013,7 +36013,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A box is on the left of a container."
       },
       {
          "id": "FRCLTEXT000407",
@@ -36025,7 +36025,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bus is in front of a box."
       },
       {
          "id": "FRTEXT000984_front",
@@ -36193,7 +36193,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A sheep is back of a fire hydrant."
       },
       {
          "id": "FRCLTEXT000492",
@@ -36205,7 +36205,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A deer is back of a fire hydrant."
       },
       {
          "id": "FRCLTEXT000301",
@@ -36217,7 +36217,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A dog is on the right of a water tank."
       },
       {
          "id": "FRTEXT000990_front",
@@ -36281,7 +36281,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A fire hydrant is to the right of a tree."
       },
       {
          "id": "FRTEXT000992_front",
@@ -36405,7 +36405,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cow is to the right of a box."
       },
       {
          "id": "FRTEXT000995",
@@ -36418,7 +36418,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A deer is in front of a container."
       },
       {
          "id": "FRCLTEXT000370",
@@ -36430,7 +36430,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cow is behind a suitcase."
       },
       {
          "id": "FRTEXT000997_front",
@@ -36598,7 +36598,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A suitcase is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT001001_front",
@@ -36766,7 +36766,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chicken is back of a water tank."
       },
       {
          "id": "FRTEXT001005",
@@ -36779,7 +36779,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "An umbrella is on the right of a container."
       },
       {
          "id": "FRCLTEXT000725",
@@ -36791,7 +36791,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bench is in front of a tree."
       },
       {
          "id": "FRTEXT001007_front",
@@ -37115,7 +37115,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A sheep is in front of a bag."
       },
       {
          "id": "FRTEXT001014_front",
@@ -37283,7 +37283,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A sheep is on the left of a suitcase."
       },
       {
          "id": "FRTEXT001018_front",
@@ -37459,7 +37459,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chicken is on the left of an umbrella."
       },
       {
          "id": "FRTEXT001022_front",
@@ -37576,7 +37576,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A fire hydrant is on the left of a box."
       },
       {
          "id": "FRTEXT001025_front",
@@ -37692,7 +37692,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A car is on the right of a box."
       },
       {
          "id": "FRTEXT001028_front",
@@ -37860,7 +37860,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chair is back of an umbrella."
       },
       {
          "id": "FRTEXT001032_front",
@@ -37924,7 +37924,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A fire hydrant is back of a suitcase."
       },
       {
          "id": "FRTEXT001034_front",
@@ -37988,7 +37988,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bicycle is behind a suitcase."
       },
       {
          "id": "FRTEXT001036_front",
@@ -38052,7 +38052,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cat is in front of a suitcase."
       },
       {
          "id": "FRTEXT001038_front",
@@ -38125,7 +38125,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cat is in front of a container."
       },
       {
          "id": "FRTEXT001040_front",
@@ -38190,7 +38190,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "An umbrella is back of a box."
       },
       {
          "id": "FRCLTEXT000351",
@@ -38202,7 +38202,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bench is behind an umbrella."
       },
       {
          "id": "FRTEXT001043_front",
@@ -38274,7 +38274,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A car is on the left of a water tank."
       },
       {
          "id": "FRTEXT001045_front",
@@ -38390,7 +38390,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chicken is behind a bag."
       },
       {
          "id": "FRTEXT001048_front",
@@ -38506,7 +38506,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A water tank is in front of a bag."
       },
       {
          "id": "FRTEXT001051_front",
@@ -38630,7 +38630,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "An umbrella is to the left of a suitcase."
       },
       {
          "id": "FRTEXT001054_front",
@@ -38694,7 +38694,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A container is to the right of a box."
       },
       {
          "id": "FRCLTEXT000108",
@@ -38706,7 +38706,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A car is to the right of a suitcase."
       },
       {
          "id": "FRTEXT001057_front",
@@ -38770,7 +38770,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A dog is to the left of a tree."
       },
       {
          "id": "FRTEXT001059_front",
@@ -38939,7 +38939,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bicycle is on the right of a container."
       },
       {
          "id": "FRCLTEXT002325",
@@ -38951,7 +38951,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chair is on the left of a fire hydrant."
       },
       {
          "id": "FRTEXT001064_front",
@@ -39171,7 +39171,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bag is on the left of an umbrella."
       },
       {
          "id": "FRCLTEXT001570",
@@ -39183,7 +39183,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A water tank is behind a bag."
       },
       {
          "id": "FRTEXT001070_front",
@@ -39247,7 +39247,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A fire hydrant is on the right of a bag."
       },
       {
          "id": "FRCLTEXT000215",
@@ -39259,7 +39259,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A container is behind a bag."
       },
       {
          "id": "FRTEXT001073_front",
@@ -39375,7 +39375,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bicycle is on the left of a fire hydrant."
       },
       {
          "id": "FRTEXT001076_front",
@@ -39439,7 +39439,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cow is to the right of a bag."
       },
       {
          "id": "FRCLTEXT000266",
@@ -39451,7 +39451,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bus is behind a bag."
       },
       {
          "id": "FRTEXT001079_front",
@@ -39835,7 +39835,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A container is to the left of a tree."
       },
       {
          "id": "FRTEXT001087_front",
@@ -39951,7 +39951,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chair is in front of a suitcase."
       },
       {
          "id": "FRCLTEXT001263",
@@ -39963,7 +39963,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A box is on the left of a bag."
       },
       {
          "id": "FRTEXT001091_front",
@@ -40087,7 +40087,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A dog is in front of a tree."
       },
       {
          "id": "FRTEXT001094_front",
@@ -40272,7 +40272,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A car is on the left of a container."
       },
       {
          "id": "FRTEXT001098",
@@ -40285,7 +40285,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cat is back of a box."
       },
       {
          "id": "FRTEXT001099",
@@ -40298,7 +40298,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bench is back of a box."
       },
       {
          "id": "FRTEXT001100_front",
@@ -40414,7 +40414,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A suitcase is behind a tree."
       },
       {
          "id": "FRTEXT001103",
@@ -40427,7 +40427,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cat is on the right of a container."
       },
       {
          "id": "FRTEXT001104_front",
@@ -40491,7 +40491,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A sheep is to the right of a bag."
       },
       {
          "id": "FRTEXT001106_front",
@@ -40607,7 +40607,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cat is behind a fire hydrant."
       },
       {
          "id": "FRTEXT001109_front",
@@ -40723,7 +40723,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "An umbrella is on the left of a bag."
       },
       {
          "id": "FRCLTEXT001795",
@@ -40735,7 +40735,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A fire hydrant is to the left of an umbrella."
       },
       {
          "id": "FRCLTEXT002090",
@@ -40747,7 +40747,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A tree is behind a suitcase."
       },
       {
          "id": "FRTEXT001114_front",
@@ -40871,7 +40871,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A car is on the left of a fire hydrant."
       },
       {
          "id": "FRCLTEXT000929",
@@ -40883,7 +40883,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A tree is to the left of a bag."
       },
       {
          "id": "FRTEXT001118_front",
@@ -41111,7 +41111,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A dog is in front of an umbrella."
       },
       {
          "id": "FRTEXT001123_front",
@@ -41288,7 +41288,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A tree is on the right of a container."
       },
       {
          "id": "FRTEXT001127_front",
@@ -41464,7 +41464,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bus is behind a suitcase."
       },
       {
          "id": "FRCLTEXT000262",
@@ -41476,7 +41476,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A horse is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT001132_front",
@@ -41808,7 +41808,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A deer is on the right of a suitcase."
       },
       {
          "id": "FRTEXT001139_front",
@@ -42132,7 +42132,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A suitcase is in front of an umbrella."
       },
       {
          "id": "FRTEXT001146",
@@ -42145,7 +42145,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bag is in front of a container."
       },
       {
          "id": "FRTEXT001147_front",
@@ -42321,7 +42321,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cow is behind a fire hydrant."
       },
       {
          "id": "FRTEXT001151_front",
@@ -42645,7 +42645,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bus is on the right of a bag."
       },
       {
          "id": "FRTEXT001158_front",
@@ -42709,7 +42709,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A tree is in front of an umbrella."
       },
       {
          "id": "FRTEXT001160_front",
@@ -42773,7 +42773,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bus is in front of an umbrella."
       },
       {
          "id": "FRTEXT001162_front",
@@ -42837,7 +42837,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A tree is on the left of a water tank."
       },
       {
          "id": "FRCLTEXT002150",
@@ -42849,7 +42849,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chair is back of a water tank."
       },
       {
          "id": "FRTEXT001165_front",
@@ -43129,7 +43129,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "An umbrella is in front of a tree."
       },
       {
          "id": "FRTEXT001171_front",
@@ -43201,7 +43201,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cat is on the right of a tree."
       },
       {
          "id": "FRCLTEXT000527",
@@ -43213,7 +43213,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A fire hydrant is on the left of a water tank."
       },
       {
          "id": "FRTEXT001174",
@@ -43226,7 +43226,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chicken is on the right of a container."
       },
       {
          "id": "FRTEXT001175",
@@ -43239,7 +43239,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A suitcase is on the right of a container."
       },
       {
          "id": "FRTEXT001176_front",
@@ -43303,7 +43303,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A sheep is in front of a tree."
       },
       {
          "id": "FRTEXT001178_front",
@@ -43368,7 +43368,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A fire hydrant is in front of a container."
       },
       {
          "id": "FRTEXT001180_front",
@@ -43432,7 +43432,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chair is back of a tree."
       },
       {
          "id": "FRTEXT001182_front",
@@ -43817,7 +43817,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A horse is on the right of a container."
       },
       {
          "id": "FRTEXT001190_front",
@@ -44089,7 +44089,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A tree is behind a water tank."
       },
       {
          "id": "FRTEXT001196_front",
@@ -44213,7 +44213,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "An umbrella is in front of a water tank."
       },
       {
          "id": "FRTEXT001199_front",
@@ -44441,7 +44441,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chair is behind a bag."
       },
       {
          "id": "FRCLTEXT001869",
@@ -44453,7 +44453,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A sheep is on the left of a tree."
       },
       {
          "id": "FRCLTEXT001736",
@@ -44465,7 +44465,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cat is to the left of a water tank."
       },
       {
          "id": "FRTEXT001206_front",
@@ -44633,7 +44633,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A suitcase is to the right of a fire hydrant."
       },
       {
          "id": "FRCLTEXT002481",
@@ -44645,7 +44645,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A box is in front of a water tank."
       },
       {
          "id": "FRCLTEXT002099",
@@ -44657,7 +44657,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bus is in front of a fire hydrant."
       },
       {
          "id": "FRCLTEXT000561",
@@ -44669,7 +44669,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cow is to the left of a box."
       },
       {
          "id": "FRCLTEXT002435",
@@ -44681,7 +44681,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bus is to the left of a fire hydrant."
       },
       {
          "id": "FRTEXT001214_front",
@@ -44754,7 +44754,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bag is on the right of a box."
       },
       {
          "id": "FRTEXT001216_front",
@@ -44818,7 +44818,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A container is to the right of a bag."
       },
       {
          "id": "FRTEXT001218_front",
@@ -44882,7 +44882,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A tree is in front of a suitcase."
       },
       {
          "id": "FRTEXT001220_front",
@@ -45154,7 +45154,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A car is in front of a tree."
       },
       {
          "id": "FRCLTEXT002025",
@@ -45166,7 +45166,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A horse is on the right of a fire hydrant."
       },
       {
          "id": "FRTEXT001227_front",
@@ -45446,7 +45446,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bicycle is to the right of a box."
       },
       {
          "id": "FRTEXT001233_front",
@@ -45518,7 +45518,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A water tank is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT001235_front",
@@ -45738,7 +45738,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A tree is on the left of an umbrella."
       },
       {
          "id": "FRTEXT001240",
@@ -45751,7 +45751,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A water tank is on the left of a container."
       },
       {
          "id": "FRTEXT001241_front",
@@ -45867,7 +45867,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A deer is on the left of a bag."
       },
       {
          "id": "FRTEXT001244_front",
@@ -45991,7 +45991,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A dog is on the right of an umbrella."
       },
       {
          "id": "FRTEXT001247_front",
@@ -46056,7 +46056,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cat is back of a container."
       },
       {
          "id": "FRTEXT001249",
@@ -46069,7 +46069,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A sheep is on the right of a container."
       },
       {
          "id": "FRTEXT001250_front",
@@ -46185,7 +46185,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A horse is in front of a suitcase."
       },
       {
          "id": "FRTEXT001253_front",
@@ -46353,7 +46353,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bag is to the right of a water tank."
       },
       {
          "id": "FRTEXT001257_front",
@@ -46477,7 +46477,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bag is in front of a water tank."
       },
       {
          "id": "FRTEXT001260_front",
@@ -46601,7 +46601,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cat is on the left of a tree."
       },
       {
          "id": "FRTEXT001263",
@@ -46614,7 +46614,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A horse is on the left of a container."
       },
       {
          "id": "FRTEXT001264_front",
@@ -46850,7 +46850,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A dog is to the right of a suitcase."
       },
       {
          "id": "FRTEXT001269_front",
@@ -47018,7 +47018,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A car is in front of a box."
       },
       {
          "id": "FRCLTEXT002656",
@@ -47030,7 +47030,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A box is in front of a suitcase."
       },
       {
          "id": "FRTEXT001274_front",
@@ -47146,7 +47146,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chicken is in front of a tree."
       },
       {
          "id": "FRTEXT001277",
@@ -47159,7 +47159,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A suitcase is back of a container."
       },
       {
          "id": "FRTEXT001278_front",
@@ -47224,7 +47224,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bicycle is back of a container."
       },
       {
          "id": "FRTEXT001280",
@@ -47237,7 +47237,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chicken is back of a container."
       },
       {
          "id": "FRTEXT001281_front",
@@ -47405,7 +47405,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chair is to the right of a tree."
       },
       {
          "id": "FRTEXT001285_front",
@@ -47573,7 +47573,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A suitcase is behind an umbrella."
       },
       {
          "id": "FRTEXT001289_front",
@@ -47637,7 +47637,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "An umbrella is to the right of a tree."
       },
       {
          "id": "FRTEXT001291_front",
@@ -47701,7 +47701,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A sheep is in front of a box."
       },
       {
          "id": "FRTEXT001293_front",
@@ -48025,7 +48025,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A box is on the right of an umbrella."
       },
       {
          "id": "FRTEXT001300_front",
@@ -48253,7 +48253,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A car is on the left of a bag."
       },
       {
          "id": "FRTEXT001305_front",
@@ -48482,7 +48482,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chair is in front of a box."
       },
       {
          "id": "FRTEXT001310_front",
@@ -48806,7 +48806,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A car is behind a fire hydrant."
       },
       {
          "id": "FRTEXT001317_front",
@@ -48870,7 +48870,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cow is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT001319_front",
@@ -48986,7 +48986,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A suitcase is behind a fire hydrant."
       },
       {
          "id": "FRTEXT001322_front",
@@ -49110,7 +49110,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chair is on the left of a suitcase."
       },
       {
          "id": "FRTEXT001325_front",
@@ -49174,7 +49174,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A dog is to the right of a fire hydrant."
       },
       {
          "id": "FRCLTEXT000295",
@@ -49186,7 +49186,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A car is on the left of a box."
       },
       {
          "id": "FRTEXT001328_front",
@@ -49303,7 +49303,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bag is back of a box."
       },
       {
          "id": "FRTEXT001331_front",
@@ -49523,7 +49523,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A deer is in front of a box."
       },
       {
          "id": "FRCLTEXT001448",
@@ -49535,7 +49535,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A water tank is on the right of a bag."
       },
       {
          "id": "FRTEXT001337_front",
@@ -49600,7 +49600,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A water tank is on the right of a container."
       },
       {
          "id": "FRTEXT001339_front",
@@ -49940,7 +49940,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A sheep is in front of a water tank."
       },
       {
          "id": "FRTEXT001346_front",
@@ -50272,7 +50272,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A fire hydrant is behind a bag."
       },
       {
          "id": "FRTEXT001353_front",
@@ -50396,7 +50396,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A suitcase is in front of a water tank."
       },
       {
          "id": "FRCLTEXT001832",
@@ -50408,7 +50408,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A sheep is on the left of a box."
       },
       {
          "id": "FRTEXT001357_front",
@@ -50888,7 +50888,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A suitcase is in front of a tree."
       },
       {
          "id": "FRTEXT001367_front",
@@ -51116,7 +51116,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bicycle is to the right of a suitcase."
       },
       {
          "id": "FRTEXT001372_front",
@@ -51181,7 +51181,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A dog is on the right of a box."
       },
       {
          "id": "FRCLTEXT001926",
@@ -51193,7 +51193,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A container is on the right of an umbrella."
       },
       {
          "id": "FRTEXT001375",
@@ -51206,7 +51206,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A dog is on the left of a container."
       },
       {
          "id": "FRTEXT001376_front",
@@ -51322,7 +51322,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A water tank is in front of a tree."
       },
       {
          "id": "FRTEXT001379_front",
@@ -51386,7 +51386,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A box is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT001381_front",
@@ -51606,7 +51606,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bench is behind a suitcase."
       },
       {
          "id": "FRTEXT001386_front",
@@ -51930,7 +51930,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A fire hydrant is in front of a suitcase."
       },
       {
          "id": "FRTEXT001393_front",
@@ -51995,7 +51995,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cow is on the left of a container."
       },
       {
          "id": "FRCLTEXT000020",
@@ -52007,7 +52007,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cat is back of a bag."
       },
       {
          "id": "FRTEXT001396",
@@ -52020,7 +52020,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A tree is on the left of a container."
       },
       {
          "id": "FRCLTEXT001480",
@@ -52032,7 +52032,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cat is in front of a bag."
       },
       {
          "id": "FRCLTEXT000500",
@@ -52044,7 +52044,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A box is in front of an umbrella."
       },
       {
          "id": "FRCLTEXT002364",
@@ -52056,7 +52056,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A horse is behind a bag."
       },
       {
          "id": "FRCLTEXT000764",
@@ -52068,7 +52068,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bag is in front of a fire hydrant."
       },
       {
          "id": "FRTEXT001401_front",
@@ -52392,7 +52392,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bicycle is behind a tree."
       },
       {
          "id": "FRTEXT001408_front",
@@ -52561,7 +52561,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A chicken is back of a box."
       },
       {
          "id": "FRTEXT001412_front",
@@ -52677,7 +52677,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A suitcase is on the left of a tree."
       },
       {
          "id": "FRCLTEXT000800",
@@ -52689,7 +52689,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "An umbrella is behind a suitcase."
       },
       {
          "id": "FRCLTEXT002096",
@@ -52701,7 +52701,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A sheep is on the right of a fire hydrant."
       },
       {
          "id": "FRTEXT001417_front",
@@ -52765,7 +52765,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cow is behind an umbrella."
       },
       {
          "id": "FRTEXT001419_front",
@@ -52829,7 +52829,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A water tank is on the left of an umbrella."
       },
       {
          "id": "FRCLTEXT001282",
@@ -52841,7 +52841,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A car is behind a water tank."
       },
       {
          "id": "FRTEXT001422_front",
@@ -52965,7 +52965,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A tree is to the right of a bag."
       },
       {
          "id": "FRTEXT001425",
@@ -52978,7 +52978,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bicycle is in front of a container."
       },
       {
          "id": "FRTEXT001426_front",
@@ -53043,7 +53043,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A car is in front of a container."
       },
       {
          "id": "FRTEXT001428_front",
@@ -53159,7 +53159,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bench is to the right of a fire hydrant."
       },
       {
          "id": "FRCLTEXT000694",
@@ -53171,7 +53171,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A deer is in front of a tree."
       },
       {
          "id": "FRTEXT001432_front",
@@ -53288,7 +53288,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A fire hydrant is back of a box."
       },
       {
          "id": "FRCLTEXT001651",
@@ -53300,7 +53300,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A cat is to the left of a fire hydrant."
       },
       {
          "id": "FRCLTEXT000997",
@@ -53312,7 +53312,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A water tank is to the right of a tree."
       },
       {
          "id": "FRCLTEXT001680",
@@ -53324,7 +53324,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bicycle is on the left of an umbrella."
       },
       {
          "id": "FRCLTEXT000470",
@@ -53336,7 +53336,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A deer is back of a tree."
       },
       {
          "id": "FRCLTEXT001511",
@@ -53348,7 +53348,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A cat is back of an umbrella."
       },
       {
          "id": "FRTEXT001440_front",
@@ -53516,7 +53516,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A water tank is in front of a suitcase."
       },
       {
          "id": "FRTEXT001444_front",
@@ -53580,7 +53580,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A chicken is on the right of a suitcase."
       },
       {
          "id": "FRCLTEXT002230",
@@ -53592,7 +53592,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A horse is on the right of a water tank."
       },
       {
          "id": "FRTEXT001447_front",
@@ -53656,7 +53656,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A suitcase is on the right of a water tank."
       },
       {
          "id": "FRTEXT001449",
@@ -53669,7 +53669,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A tree is in front of a box."
       },
       {
          "id": "FRCLTEXT001366",
@@ -53681,7 +53681,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A horse is on the right of a suitcase."
       },
       {
          "id": "FRCLTEXT000553",
@@ -53693,7 +53693,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bag is to the right of a tree."
       },
       {
          "id": "FRTEXT001452_front",
@@ -53765,7 +53765,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A horse is in front of a water tank."
       },
       {
          "id": "FRCLTEXT002769",
@@ -53777,7 +53777,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A horse is in front of a tree."
       },
       {
          "id": "FRTEXT001455_front",
@@ -53901,7 +53901,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A horse is behind a box."
       },
       {
          "id": "FRCLTEXT000677",
@@ -53913,7 +53913,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A tree is behind a bag."
       },
       {
          "id": "FRTEXT001459_front",
@@ -53978,7 +53978,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A chicken is in front of a box."
       },
       {
          "id": "FRTEXT001461_front",
@@ -54042,7 +54042,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A car is back of a suitcase."
       },
       {
          "id": "FRTEXT001463_front",
@@ -54114,7 +54114,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A container is on the left of a suitcase."
       },
       {
          "id": "FRCLTEXT000634",
@@ -54126,7 +54126,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A horse is to the right of a box."
       },
       {
          "id": "FRCLTEXT001717",
@@ -54138,7 +54138,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A sheep is to the right of a tree."
       },
       {
          "id": "FRTEXT001467_front",
@@ -54306,7 +54306,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A container is to the left of a box."
       },
       {
          "id": "FRTEXT001471_front",
@@ -54422,7 +54422,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A fire hydrant is in front of a water tank."
       },
       {
          "id": "FRTEXT001474_front",
@@ -54486,7 +54486,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A water tank is to the right of an umbrella."
       },
       {
          "id": "FRTEXT001476_front",
@@ -54602,7 +54602,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bicycle is on the right of an umbrella."
       },
       {
          "id": "FRTEXT001479",
@@ -54615,7 +54615,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A chair is on the left of a box."
       },
       {
          "id": "FRTEXT001480_front",
@@ -54732,7 +54732,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A horse is in front of a container."
       },
       {
          "id": "FRTEXT001483_front",
@@ -54804,7 +54804,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bus is back of a water tank."
       },
       {
          "id": "FRTEXT001485_front",
@@ -54921,7 +54921,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A tree is in front of a container."
       },
       {
          "id": "FRTEXT001488_front",
@@ -55037,7 +55037,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A sheep is back of a water tank."
       },
       {
          "id": "FRTEXT001491_front",
@@ -55154,7 +55154,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A dog is back of a box."
       },
       {
          "id": "FRCLTEXT001188",
@@ -55166,7 +55166,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A sheep is back of a bag."
       },
       {
          "id": "FRTEXT001495_front",
@@ -55282,7 +55282,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bag is behind a water tank."
       },
       {
          "id": "FRTEXT001498_front",
@@ -55406,7 +55406,7 @@
          "obj2": "suitcase",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cow is in front of a suitcase."
       },
       {
          "id": "FRTEXT001501_front",
@@ -55470,7 +55470,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A tree is on the left of a fire hydrant."
       },
       {
          "id": "FRCLTEXT000803",
@@ -55482,7 +55482,7 @@
          "obj2": "umbrella",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A deer is in front of an umbrella."
       },
       {
          "id": "FRCLTEXT000372",
@@ -55494,7 +55494,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A cat is in front of a water tank."
       },
       {
          "id": "FRCLTEXT001433",
@@ -55506,7 +55506,7 @@
          "obj2": "water tank",
          "obj2_dir": "nan",
          "relation": "front",
-         "original_context": NaN
+         "original_context": "A bench is in front of a water tank."
       },
       {
          "id": "FRTEXT001506_front",
@@ -55675,7 +55675,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A tree is on the left of a box."
       },
       {
          "id": "FRTEXT001510",
@@ -55688,7 +55688,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bag is on the right of a container."
       },
       {
          "id": "FRTEXT001511_front",
@@ -55753,7 +55753,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A bench is on the right of a container."
       },
       {
          "id": "FRCLTEXT002221",
@@ -55765,7 +55765,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A deer is to the left of a tree."
       },
       {
          "id": "FRCLTEXT000140",
@@ -55777,7 +55777,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cat is on the right of a fire hydrant."
       },
       {
          "id": "FRTEXT001515_front",
@@ -55842,7 +55842,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bus is back of a container."
       },
       {
          "id": "FRTEXT001517_front",
@@ -55967,7 +55967,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bag is back of a container."
       },
       {
          "id": "FRCLTEXT001102",
@@ -55979,7 +55979,7 @@
          "obj2": "bag",
          "obj2_dir": "nan",
          "relation": "left",
-         "original_context": NaN
+         "original_context": "A bus is to the left of a bag."
       },
       {
          "id": "FRCLTEXT001351",
@@ -55991,7 +55991,7 @@
          "obj2": "tree",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": NaN
+         "original_context": "A cow is to the right of a tree."
       },
       {
          "id": "FRCLTEXT000325",
@@ -56003,7 +56003,7 @@
          "obj2": "fire hydrant",
          "obj2_dir": "nan",
          "relation": "back",
-         "original_context": NaN
+         "original_context": "A bag is behind a fire hydrant."
       },
       {
          "id": "FRTEXT001523_front",
