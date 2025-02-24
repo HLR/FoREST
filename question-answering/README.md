@@ -96,6 +96,6 @@ All options for parameters are described below
 - --specific_label: whether to specify FoR class to evaluate. All option described below in notes.
 - --show_confusion_matrix: whether to show confusion matrix of the result. Use '--show_confusion_matrix T' for showing confusion matrix; otherwise ignore this option.
 
-**Note** All FoR class for C-split are ["]. All FoR class for A-split are ["cow", "car", "box", "pen"]
+**Note** All FoR class for C-split are ["external relative", "external intrinsic", "internal intrinsic", "internal relative"]. All FoR class for A-split are ["cow", "car", "box", "pen"]
 
 ---
