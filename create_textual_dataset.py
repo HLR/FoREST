@@ -757,6 +757,18 @@ def main():
     for i, data in enumerate(clear_dataset):
         clear_dataset[i]["id"] = "FRCLTEXT{:06d}".format(i)
 
+
+
+    image_dataset_dir = create_image_dataset(dataset, intrinsic_objs, specify_direction=True)
+    image_clear_dataset_dir = create_image_dataset(clear_dataset, intrinsic_objs, specify_direction=True)
+
+    create_json_dataset(image_dataset_dir, "Normal prompt with direction to generate images", "A-split-image")
+    print("Normal prompt with direction:", len(image_dataset_dir))
+
+    create_json_dataset(image_clear_dataset_dir, "Cleared prompt with direction to generate images",
+                        "C-split-image")
+    print("Cleared prompt with direction:", len(image_clear_dataset_dir))
+
     # Adding the direction
     dataset_dir = create_image_dataset(dataset, intrinsic_objs, specify_direction=True, filter_external=False)
     clear_dataset_dir = create_image_dataset(clear_dataset, intrinsic_objs, specify_direction=True, filter_external=False)
@@ -764,14 +776,18 @@ def main():
     # Creating the image from camera perspective
     qa_ambiguous = create_QA_questions(dataset_dir)
     qa_clear = create_QA_questions(clear_dataset_dir)
-    create_json_dataset(qa_ambiguous, "QA dataset of A-split", "text_ambiguous_question")
-    create_json_dataset(qa_clear, "QA dataset of C-split", "text_clear_question")
+    create_json_dataset(qa_ambiguous, "QA dataset of A-split", "A-split_QA_camera")
+    create_json_dataset(qa_clear, "QA dataset of C-split", "C-split_QA_camera")
+    print("QA with ambiguous context on camera's perspective:", len(qa_ambiguous))
+    print("QA with clear context on camera's perspective:", len(qa_clear))
 
     # Creating the image from
     qa_ambiguous_intrinsic = create_QA_questions(dataset_dir, obj_with_dir=intrinsic_objs)
     qa_clear_intrinsic = create_QA_questions(clear_dataset_dir, obj_with_dir=intrinsic_objs)
-    create_json_dataset(qa_ambiguous_intrinsic, "QA dataset of A-split relatum convert", "text_ambiguous_question_relatum")
-    create_json_dataset(qa_clear_intrinsic, "QA dataset of C-split  relatum convert", "text_clear_question_relatum")
+    create_json_dataset(qa_ambiguous_intrinsic, "QA dataset of A-split relatum convert", "A-split_QA_relatum")
+    create_json_dataset(qa_clear_intrinsic, "QA dataset of C-split  relatum convert", "C-split_QA_relatum")
+    print("QA with ambiguous context on relatum's perspective:", len(qa_ambiguous_intrinsic))
+    print("QA with clear context on relatum's perspective:", len(qa_clear_intrinsic))
 
 
 if __name__ == "__main__":

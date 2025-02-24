@@ -39,6 +39,9 @@ The visualization is created separately using the Unity3D engine. **Instructions
 
 Examples of synthetic visualization associated with generated examples are provided below,
 
+![Example of image generated](figures/example_unity_images.png)
+
+**All images will be downloadable using hugging fact dataset (This will be updated soon).**
 
 
 [//]: # (The code for generating visualization is provided [here]&#40;&#41;. )
