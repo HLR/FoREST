@@ -35,7 +35,8 @@ We provide the relatum properties used for creating each Frame of Reference case
 
 ### Visualization
 
-The visualization is created separately using the Unity3D engine. **Instructions for running this are awaited for updating.**
+The visualization is created separately using the **Unity3D** engine using free models downloaded from assert store.
+The developed code is provided in this repository.
 
 Examples of synthetic images are provided below,
 
