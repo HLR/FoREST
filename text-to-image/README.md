@@ -1,6 +1,23 @@
 # Text-to-Image Generation (T2I)
 
-# **Under development**
+## Task Description
+
+**Under development**
+
+## Generate Images
+
+### Stable Diffusion
+
+**Under development**
+
+### Layout Diffusion
+
+This model consists of two steps: text-to-layout and layout-to-image
+
+1. Generate the layout using following command (text-to-layout)
+
+2. Generate the image based on generated layout
+**Under development**
 
 ---
 ## T2I Evaluation

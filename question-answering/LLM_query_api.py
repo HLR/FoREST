@@ -13,13 +13,13 @@ client = openai.OpenAI(
     organization=os.getenv('openAI_API_organization_key')
 )
 
+
 def setup_gpt_api(dataset, model="gpt-3.5-turbo", save_file=None,
                   few_shot=(),
                   prompt=QA_prompt,
                   additional_prompt="",
                   save_columns=("context", "label", "LLM_predict"),
                   debug=False, FoR_info_file=None):
-    result_gpt = []
 
     FoR_info = {}
     real_id = {question_info["context"]: question_info["id"] for question_info in dataset}
@@ -116,25 +116,13 @@ if __name__ == "__main__":
     parser.add_argument("--model", type=str, default="3")  # Model option: 8B, 70B
     parser.add_argument("--clear", type=bool, default=False)
     parser.add_argument("--convert_type", type=str, default="")
+    parser.add_argument("--data_path", type=str, default="Dataset/C-split_QA_camera_perspective.json")
     parser.add_argument("--method", type=str, default="0-shot")
     args = parser.parse_args()
 
-    if not args.clear:
-        if args.convert_type == "":
-            # data_path = os.path.join("Dataset", "fix.json")
-            data_path = os.path.join("Dataset", "text_ambiguous_question_total.json")
-        else:
-            data_path = os.path.join("Dataset", "text_ambiguous_question_relatum_total.json")
-        clear = ""
-    else:
-        # data_path = os.path.join("Dataset", "fix_clear.json")
-        if args.convert_type == "":
-            data_path = os.path.join("Dataset", "text_clear_question_total.json")
-        else:
-            data_path = os.path.join("Dataset", "text_clear_question_relatum_total.json")
-        clear = "_clear"
+    clear = "_clear" if args.clear else ""
 
-    with open(data_path) as json_file:
+    with open(args.data_path) as json_file:
         data = json.load(json_file)
     dataset = data["data"]
 
@@ -145,40 +133,27 @@ if __name__ == "__main__":
     else:
         model = "gpt-3.5-turbo-0125"
     print(model)
-    update_verison = 7
-    for model in ["gpt-4o-2024-11-20"]:
-        print(model)
 
-        if args.method == "0-shot":
-            args.few_shot = 0
-            print(f"Running {args.few_shot}-shot")
-            setup_gpt_api(dataset, model=model,
-                          prompt=QA_prompt,
-                          save_file=f"QA{args.convert_type}_{model}{clear}_dataset_v5-4_{args.few_shot}-shot_update{update_verison}",
-                          few_shot=QA_few_shot if args.few_shot == 4 else [])
-        if args.method == "4-shot":
-            args.few_shot = 4
-            print(f"Running {args.few_shot}-shot")
-            setup_gpt_api(dataset, model=model,
-                          prompt=QA_prompt,
-                          save_file=f"QA{args.convert_type}_{model}{clear}_dataset_v5-4_{args.few_shot}-shot_update{update_verison}",
-                          few_shot=QA_few_shot if args.few_shot == 4 else [])
+    if args.method == "CoT":
+        print(f"Running {args.few_shot}-shot with CoT")
+        setup_gpt_api(dataset,
+                      model=model,
+                      save_file=f"QA{args.convert_type}_{model}{clear}_dataset_COT_{args.few_shot}-shot",
+                      prompt=QA_prompt_COT,
+                      few_shot=QA_COT_ex if args.few_shot == 4 else [])
 
-        if args.method == "COT":
-            args.few_shot = 4
-            print(f"Running {args.few_shot}-shot with CoT")
-            setup_gpt_api(dataset,
-                          model=model,
-                          save_file=f"QA{args.convert_type}_{model}{clear}_dataset_v5-4_COT_{args.few_shot}-shot_update{update_verison}",
-                          prompt=QA_prompt_COT,
-                          few_shot=QA_COT_ex if args.few_shot == 4 else [])
+    elif args.method == "SG":
+        print(f"Running {args.few_shot}-shot with SG+CoT")
+        setup_gpt_api(dataset,
+                      model=model,
+                      save_file=f"QA{args.convert_type}{model}{clear}_dataset_SG_{args.few_shot}-shot",
+                      prompt=QA_SG_COT,
+                      few_shot=QA_SG_COT_ex if args.few_shot == 4 else [],
+                      FoR_info_file=f"{model}{clear}_datasetQA_v5-4_COT_aspect_{args.few_shot}-shot.csv")
 
-        if args.method == "SG":
-            args.few_shot = 4
-            print(f"Running {args.few_shot}-shot with SG")
-            setup_gpt_api(dataset,
-                          model=model,
-                          save_file=f"QA{args.convert_type}{model}{clear}_dataset_v5-4_SG_{args.few_shot}-shot_update{update_verison}",
-                          prompt=QA_SG_COT,
-                          few_shot=SG_COT_QA_ex2 if args.few_shot == 4 else [],
-                          FoR_info_file=f"gpt-4o-2024-05-13{clear}_datasetQA_v5-4_COT_aspect_{args.few_shot}-shot_update7.csv")
+    else:
+        print(f"Running {args.few_shot}-shot")
+        setup_gpt_api(dataset, model=model,
+                      prompt=QA_prompt,
+                      save_file=f"QA{args.convert_type}_{model}{clear}_dataset_{args.few_shot}-shot",
+                      few_shot=QA_few_shot if args.few_shot == 4 else [])

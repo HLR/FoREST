@@ -49,15 +49,14 @@ def main(arg):
             except:
                 map_id_layout[image_id] = []
 
-    with open(arg.info_dir, "r") as file:
+    with open(arg.context_dir, "r") as file:
         eval_datum = json.load(file)["data"]
 
-    map_direction = {}
     for eval_data in tqdm(eval_datum):
         context = eval_data["context"]
         id_data = eval_data["id"]
-        id = f"{id_data}"
-        layouts = map_id_layout[id]
+        context_id = f"{id_data}"
+        layouts = map_id_layout[context_id]
         reference_obj = eval_data["obj2"]
         reference_obj_dir = eval_data["obj2_dir"]
         boxes = []
@@ -75,13 +74,13 @@ def main(arg):
                 # Adding orientation phase to relatum
                 if arg.direction and phrase == reference_obj:
                     if reference_obj_dir == "front":
-                        phrase = phrase + " that is facing toward"
+                        phrase = phrase + " that is facing toward camera."
                     elif reference_obj_dir == "left":
-                        phrase = phrase + " that is facing to the left"
+                        phrase = phrase + " that is facing to the left."
                     elif reference_obj_dir == "back":
-                        phrase = phrase + " that is facing away"
+                        phrase = phrase + " that is facing away from the camera."
                     elif reference_obj_dir == "right":
-                        phrase = phrase + " that is facing to the right"
+                        phrase = phrase + " that is facing to the right."
 
                 xmin = box[0]
                 ymin = box[1]
@@ -102,7 +101,8 @@ def main(arg):
                           gligen_scheduled_sampling_beta=0.3,
                           num_inference_steps=50
                           ).images
-            images[0].save(arg.output_dir + "/{:}_gen_{:}.png".format(id, gen_img))
+
+            images[0].save(arg.output_dir + "/{:}_gen_{:}.png".format(context_id, gen_img))
 
 
 if __name__ == '__main__':
@@ -112,7 +112,7 @@ if __name__ == '__main__':
     parser.add_argument("--few_shot_layout", type=int, default=4)
     parser.add_argument("--layout_dir", type=str,
                         default="/LLMs_results/llama_layout_v2_4-shot.csv")
-    parser.add_argument("--info_dir", type=str,
+    parser.add_argument("--context_dir", type=str,
                         default="/Dataset/dir_prompt_image_total.json")
     parser.add_argument("--output_dir", type=str,
                         default="/image_gen/GLIGEN/image_gen_{arg.llama_size}_{path}_{i}_shots_wo_dir")

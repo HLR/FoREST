@@ -86,6 +86,6 @@ if __name__ == "__main__":
     print(f"Running {args.few_shot}-shot to generate spatial information + SG")
 
     setup_llm_call_FoR_identification(dataset, model=model,
-                   save_file=f"{args.model_name}_{args.model_size}{clear}_dataset_SG-information_{args.few_shot}-shot.csv",
+                   save_file=f"{args.model_name}_{args.model_size}{clear}_dataset_SG-information_{args.few_shot}-shot",
                    prompt=FoR_identification_prompt_SG,
                    few_shot=SG_example if args.few_shot == 4 else [])

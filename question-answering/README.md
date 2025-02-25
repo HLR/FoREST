@@ -33,6 +33,8 @@ To create Chain-of-Thought (CoT) examples, we modify the prompt to require reaso
 We manually crafted reasoning explanations with the necessary information for each example we used in the few-shot setting.
 The input to the model is instruction, CoT example, spatial context, and the question.
 
+**SG Prompting** We propose to augment the information with generated spatial information and frame of reference identification. To use this, please first run ``python SG_generate`` in [utils](../utils) with desired model.
+
 
 The command for conducing experiment is listed below,
 
@@ -47,12 +49,13 @@ All options for parameters are described below
 - --model_size: For llama3, options are {8B, 70B}. For qwen2, options are {7B, 72B}.
 - --clear: Whether the dataset evaluation come from either clear (C-split) or ambiguous (A-split). Enter any character to indicate C-split; otherwise left empty.
 - --data_path: directory for evaluated data.
+- --method: which method to run include ["CoT", "SG"]. ignore this option if running without these two methods. To use SG method, please first run ``python SG_generate`` in [utils](../utils) with desired model.
 - --convert_type: Whether "intrinsic" or "camera". Default is "" which can be used as "camera".
 
 Example of command with all parameters
 
 ```bash
-python LLM_query_open_source.py --cuda 0 --few_shot 4 --model_name llama3 --model_size 70B --clear T --data_path Dataset/test.json --convert_type intrinsic
+python LLM_query_open_source.py --cuda 0 --few_shot 4 --model_name llama3 --model_size 70B --clear T --data_path Dataset/test.json --convert_type intrinsic --method CoT
 ```
 
 **Note:** 

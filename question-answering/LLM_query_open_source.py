@@ -86,6 +86,7 @@ if __name__ == "__main__":
     parser.add_argument("--clear", type=bool, default=False)
     parser.add_argument("--data_path", type=str, default="Dataset/C-split_QA_camera_perspective.json")
     parser.add_argument("--convert_type", type=str, default="")
+    parser.add_argument("--method", type=str, default="")
     args = parser.parse_args()
 
     os.environ["CUDA_VISIBLE_DEVICES"] = args.cuda

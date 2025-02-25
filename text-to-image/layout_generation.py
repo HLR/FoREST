@@ -94,9 +94,6 @@ if __name__ == "__main__":
 
     os.environ["CUDA_VISIBLE_DEVICES"] = args.cuda
 
-    # for i in range(1):
-    #     args.clear = ((i % 2) == 0)
-
     if args.clear:
         print("Generate Layout for clear prompt")
         path = "clear_dir_prompt_image_total"
@@ -112,7 +109,7 @@ if __name__ == "__main__":
     if args.SG_information:
         print("Using spatial information + frame of reference regarding context")
         addition_tag = "_augmented_info"
-        with open( f"llama3_{args.model_size}{clear_tag}_dataset_SG-information_{args.few_shot}-shot.csv") as data_file:
+        with open(f"llama3_{args.model_size}{clear_tag}_dataset_SG-information_{args.few_shot}-shot.csv") as data_file:
             additional_data = pd.read_csv(data_file)["GPT_predict"].tolist()
 
     data_path = os.path.join("Dataset", f"{path}.json")
