@@ -1,7 +1,5 @@
 # Frame of Reference Identification
 
-# Question Answering (QA)
-
 ---
 
 ## Task Description
