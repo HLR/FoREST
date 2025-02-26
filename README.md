@@ -68,6 +68,14 @@ All evaluation tasks can be found below,
 If you find this repository useful, please cite
 
 ```bibtex
-
+@misc{premsri2025forestframereferenceevaluation,
+      title={FoREST: Frame of Reference Evaluation in Spatial Reasoning Tasks}, 
+      author={Tanawan Premsri and Parisa Kordjamshidi},
+      year={2025},
+      eprint={2502.17775},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.17775}, 
+}
 ```
 
