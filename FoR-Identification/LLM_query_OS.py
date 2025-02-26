@@ -25,15 +25,15 @@ def setup_llm_call_FoR_identification(dataset, model, prompt,
                                       save_file=None,
                                       few_shot=(), additional_prompt="",
                                       save_columns=("context", "label", "GPT_predict"),
-                                      debug=False,):
+                                      debug=False, ):
     result_gpt = []
 
     i = 0
     for data in tqdm(dataset):
         context, label = data["context"], data["label"]
         message = ([{"role": "system", "content": prompt + additional_prompt}]
-                    + list(few_shot)
-                    + [{"role": "user", "content": "context:" + context}])
+                   + list(few_shot)
+                   + [{"role": "user", "content": "context:" + context}])
         if debug:
             print(message)
             continue

@@ -109,16 +109,14 @@ if __name__ == '__main__':
     # llama_layout_v2_4-shot_without_dir.csv
     parser = argparse.ArgumentParser()
     parser.add_argument("--cuda", type=int, default=7)
-    parser.add_argument("--few_shot_layout", type=int, default=4)
     parser.add_argument("--layout_dir", type=str,
                         default="/LLMs_results/llama_layout_v2_4-shot.csv")
     parser.add_argument("--context_dir", type=str,
-                        default="/Dataset/dir_prompt_image_total.json")
+                        default="/Dataset/C-split_image_total.json")
     parser.add_argument("--output_dir", type=str,
-                        default="/image_gen/GLIGEN/image_gen_{arg.llama_size}_{path}_{i}_shots_wo_dir")
-    parser.add_argument("--direction", type=bool, default=False)
-    parser.add_argument("--llama_size", type=str, default="8B")
+                        default="/image_gen/GLIGEN/image_gen_layout")
     parser.add_argument("--num_repeat", type=int, default=4)
+    parser.add_argument("--direction", type=bool, default=True)
 
     arg = parser.parse_args()
     main(arg)
