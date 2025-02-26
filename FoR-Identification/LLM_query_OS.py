@@ -8,8 +8,9 @@ import os
 import argparse
 from sklearn.metrics import confusion_matrix
 import torch
-from LLMs_functions import select_llm_caller
-from prompt import SG_example, FoR_identification_prompt_SG
+from utils.LLMs_functions import select_llm_caller
+from utils.prompt import FoR_identification_prompt, FoR_identification_prompt_COT, FoR_identification_prompt_SG, \
+    SG_example, COT, few_shot
 from transformers import BitsAndBytesConfig
 
 quantization_config = BitsAndBytesConfig(
@@ -24,34 +25,26 @@ def setup_llm_call_FoR_identification(dataset, model, prompt,
                                       save_file=None,
                                       few_shot=(), additional_prompt="",
                                       save_columns=("context", "label", "GPT_predict"),
-                                      debug=False,
-                                      additional_info=None):
+                                      debug=False,):
     result_gpt = []
 
     i = 0
     for data in tqdm(dataset):
         context, label = data["context"], data["label"]
-        if additional_info is not None:
-            explanation = additional_info[i]
-            chat_msg = ([{"role": "system", "content": prompt + additional_prompt}]
-                        + list(few_shot)
-                        + [{"role": "user",
-                            "content": "context:" + context + "\n" + "extra information:" + explanation}])
-        else:
-            chat_msg = ([{"role": "system", "content": prompt + additional_prompt}]
-                        + list(few_shot)
-                        + [{"role": "user", "content": "context:" + context}])
+        message = ([{"role": "system", "content": prompt + additional_prompt}]
+                    + list(few_shot)
+                    + [{"role": "user", "content": "context:" + context}])
         if debug:
-            print(chat_msg)
+            print(message)
             continue
 
-        pred = call_llm(chat_msg, model=model)
+        pred = call_llm(message, model=model)
         result_gpt.append([context, label, pred])
         i += 1
 
     if save_file:
         df = pd.DataFrame(result_gpt, columns=save_columns)
-        df.to_csv("LLMs_results/" + save_file + ".csv")
+        df.to_csv("LLMs_results_FoR/" + save_file + ".csv")
 
 
 if __name__ == "__main__":
@@ -85,7 +78,24 @@ if __name__ == "__main__":
 
     print(f"Running {args.few_shot}-shot to generate spatial information + SG")
 
-    setup_llm_call_FoR_identification(dataset, model=model,
-                   save_file=f"{args.model_name}_{args.model_size}{clear}_dataset_SG-information_{args.few_shot}-shot",
-                   prompt=FoR_identification_prompt_SG,
-                   few_shot=SG_example if args.few_shot == 4 else [])
+    if args.method == "CoT":
+        print(f"Running {args.few_shot}-shot with CoT")
+        setup_llm_call_FoR_identification(dataset,
+                                          model=model,
+                                          save_file=f"QA{args.convert_type}_{args.model_name}_{args.model_size}{clear}_dataset_COT_{args.few_shot}-shot",
+                                          prompt=FoR_identification_prompt_COT,
+                                          few_shot=COT if args.few_shot == 4 else [])
+    elif args.method == "SG":
+        print(f"Running {args.few_shot}-shot with CoT+SG")
+        setup_llm_call_FoR_identification(dataset,
+                                          model=model,
+                                          save_file=f"QA{args.convert_type}_{args.model_name}_{args.model_size}{clear}_dataset_SG_{args.few_shot}-shot",
+                                          prompt=FoR_identification_prompt_SG,
+                                          few_shot=SG_example if args.few_shot == 4 else [])
+    else:
+        print(f"Running {args.few_shot}-shot with default setting")
+        setup_llm_call_FoR_identification(dataset,
+                                          model=model,
+                                          save_file=f"QA{args.convert_type}_{args.model_name}_{args.model_size}{clear}_dataset_{args.few_shot}-shot",
+                                          prompt=FoR_identification_prompt,
+                                          few_shot=few_shot if args.few_shot == 4 else [])

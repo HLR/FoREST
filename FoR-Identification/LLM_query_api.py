@@ -6,8 +6,6 @@ from sklearn.metrics import confusion_matrix
 from utils.prompt import *
 from utils.LLMs_functions import call_gpt_api
 import os
-import json
-import argparse
 
 # consider topology, distance, direction
 
@@ -17,62 +15,36 @@ client = openai.OpenAI(
 )
 
 
-def setup_gpt_api(dataset, model="gpt-3.5-turbo", save_file=None,
-                  few_shot=(),
-                  prompt=QA_prompt,
-                  additional_prompt="",
-                  save_columns=("context", "label", "LLM_predict"),
-                  debug=False, FoR_info_file=None):
-
-    FoR_info = {}
-    real_id = {question_info["context"]: question_info["id"] for question_info in dataset}
-
-    if FoR_info_file:
-        df = pd.read_csv("LLMs_results/{}".format(FoR_info_file))
-        for _, data in df.iterrows():
-            response = data["GPT_predict"]
-            context = data["context"]
-            if context not in real_id:
-                continue
-            context_id = real_id[context]
-            response = response.replace("Explanation:", "Frame of Reference Explanation:").replace("Answer:",
-                                                                                                   "Frame of Reference:")
-            FoR_info[context_id] = response
-
-        # Checking all question has FoR information generate
-        for question in dataset:
-            context_id = real_id[context]
-            if context_id not in FoR_info:
-                print("Error not found FoR information")
-                return
-
-    result_gpt = []
-    i = 0
+def setup_gpt_api_FoR(dataset, model="gpt-3.5-turbo", save_file=None,
+                      few_shot=(),
+                      prompt=QA_prompt,
+                      additional_prompt="",
+                      save_columns=("context", "label", "LLM_predict"),
+                      debug=False):
     for data in tqdm(dataset):
         context = data["context"]
         question = data["question"]
         candidate_answers = data["candidate_answer"]
-        if FoR_info_file:
-            context_id = real_id[context]
-            FoR_context = FoR_info[context_id]
-            chat_msg = ([{"role": "system", "content": prompt + additional_prompt}]
-                        + list(few_shot)
-                        + [{"role": "user", "content": f"Context: {context} {FoR_context} Question: {question}"}])
-        else:
-            chat_msg = ([{"role": "system", "content": prompt + additional_prompt}]
-                        + list(few_shot)
-                        + [{"role": "user", "content": f"Context: {context} Question: {question}"}])
+        message = ([{"role": "system", "content": prompt + additional_prompt}]
+                   + list(few_shot)
+                   + [{"role": "user", "content": f"Context: {context} Question: {question}"}])
         if debug:
-            print(chat_msg)
+            print(message)
             continue
 
-        pred = call_gpt_api(client, chat_msg, model=model)
+        pred = call_gpt_api(client, message, model=model)
         result_gpt.append([context, candidate_answers, pred])
 
     if save_file:
         df = pd.DataFrame(result_gpt, columns=save_columns)
         df.to_csv("LLMs_results_QA/" + save_file + ".csv")
 
+
+
+# setup_gpt_api(dataset, save_file="init_result3_explanation")
+import os
+import json
+import argparse
 
 if __name__ == "__main__":
 

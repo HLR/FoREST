@@ -18,24 +18,30 @@ The output is a spatial relation (S), restricted to {left, right, front, back}
 We evaluate on three models: Llama3.0-70B, Qwen2-72B, and GPT-4o.
 
 **Zero-shot baseline.**
+
 We call the LLM with instructions, a spatial context (T) and a question (Q) expecting a spatial relation as the response. 
 The prompt instructs the model to answer the question with one of the candidate spatial relations without any explanations.
 
 
 **Few-shot baseline.**
+
 We create four spatial expressions, each assigned to a single FoR class to prevent bias. 
 We generate a corresponding question and answer for each. 
 These serve as examples in our few-shot prompting. 
 The input to the model is instruction, example, spatial context, and the question.
 
 **Chain-of-Thought baseline.**
+
 To create Chain-of-Thought (CoT) examples, we modify the prompt to require reasoning before answering.
 We manually crafted reasoning explanations with the necessary information for each example we used in the few-shot setting.
 The input to the model is instruction, CoT example, spatial context, and the question.
 
-**SG Prompting** We propose to augment the information with generated spatial information and frame of reference identification. To use this, please first run ``python SG_generate`` in [utils](../utils) with desired model.
+**SG Prompting** 
+
+We propose to augment the information with generated spatial information and frame of reference identification. To use this, please first run FoR identification with SG method in [FoR-identification](../FoR-Identification).
 
 
+### Commands To Run
 The command for conducing experiment is listed below,
 
 ```bash
@@ -49,7 +55,7 @@ All options for parameters are described below
 - --model_size: For llama3, options are {8B, 70B}. For qwen2, options are {7B, 72B}.
 - --clear: Whether the dataset evaluation come from either clear (C-split) or ambiguous (A-split). Enter any character to indicate C-split; otherwise left empty.
 - --data_path: directory for evaluated data.
-- --method: which method to run include ["CoT", "SG"]. ignore this option if running without these two methods. To use SG method, please first run ``python SG_generate`` in [utils](../utils) with desired model.
+- --method: which method to run include ["CoT", "SG"]. ignore this option if running without these two methods. To use SG method, please first run FoR identification with SG method in [FoR-identification](../FoR-Identification).
 - --convert_type: Whether "intrinsic" or "camera". Default is "" which can be used as "camera".
 
 Example of command with all parameters

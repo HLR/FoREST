@@ -34,8 +34,9 @@ def find_answer(pred):
             pred_label = find_potential_answer(pred_label)
     return pred_label
 
+
 def get_result_ambiguous(file_path):
-    data = pd.read_csv(os.path.join("LLMs_results_NEW", file_path))
+    data = pd.read_csv(os.path.join("../LLM_results", file_path))
 
     set_label = ['external intrinsic external relative', 'external relative internal relative',
                  'external intrinsic external relative internal intrinsic internal relative', 'external relative']
@@ -64,7 +65,7 @@ def get_result_ambiguous(file_path):
 
 
 def get_result_clear(file_path):
-    data = pd.read_csv(os.path.join("LLMs_results", file_path))
+    data = pd.read_csv(os.path.join("../LLM_results", file_path))
 
     set_label = ['external intrinsic external relative', 'external relative internal relative',
                  'external intrinsic external relative internal intrinsic internal relative', 'external relative']
@@ -93,7 +94,7 @@ def get_result_clear(file_path):
 
 
 def main(args):
-    CANDIDATE_ANSWER =  ['external relative', 'external intrinsic', 'internal intrinsic', 'internal relative']
+    CANDIDATE_ANSWER = ['external relative', 'external intrinsic', 'internal intrinsic', 'internal relative']
     if args.clear:
         DEFAULT_LABEL_SET = ['external relative', 'external intrinsic', 'internal intrinsic', 'internal relative']
     else:
@@ -114,6 +115,7 @@ def main(args):
             print(f"\t{result[label][answer_idx]}", end="\t|")
         print()
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
@@ -127,3 +129,4 @@ if __name__ == '__main__':
                         help='Whether to see results from specific label. Can be list "A,B" -> [A, B]')
 
     args = parser.parse_args()
+    main(args)

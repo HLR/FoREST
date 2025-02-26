@@ -3,7 +3,7 @@ transformers
 pandas
 seaborn
 imageio
-matplotlib
+matplotlib==3.9.0
 numpy
 diffusers==0.32.2
 accelerate==1.4.0

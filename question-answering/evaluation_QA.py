@@ -35,10 +35,11 @@ def find_answer(pred):
     return pred_label
 
 
-def get_result_ambiguous(file_path, default_relation_index=1, specific_category=[]):
-    data = pd.read_csv(os.path.join("LLMs_results_QA", file_path))
+def get_result_ambiguous(file_path, default_relation_index=1, specific_category=()):
+    data = pd.read_csv(os.path.join("../LLM_results_QA", file_path))
 
-    with open(os.path.join("Dataset", "text_ambiguous_question_total.json"), 'r') as file:
+    # Only use for FoR classes
+    with open(os.path.join("../Dataset", "A-split_QA_camera_total.json"), 'r') as file:
         normal_data_label = json.load(file)["data"]
 
     FoR_classes = ['external intrinsic external relative',
@@ -102,9 +103,10 @@ def get_result_ambiguous(file_path, default_relation_index=1, specific_category=
 
 
 def get_result_clear(file_path, specific_category=None):
-    data = pd.read_csv(os.path.join("LLMs_results_QA", file_path))
+    data = pd.read_csv(os.path.join("../LLM_results_QA", file_path))
 
-    with open(os.path.join("Dataset", "text_clear_question_total.json"), 'r') as file:
+    # Only use for FoR classes
+    with open(os.path.join("../Dataset", "C-split_QA_camera_total.json"), 'r') as file:
         questions_info = json.load(file)["data"]
 
     set_label = ['external relative', 'external intrinsic', 'internal intrinsic', 'internal relative']
@@ -120,31 +122,30 @@ def get_result_clear(file_path, specific_category=None):
 
     for context_data in questions_info:
         context = context_data["context"]
-        FoR_label = " ".join(sorted(context_data["label"])).lower()
-        map_context_label[context] = FoR_label
+        map_context_label[context] = str(" ".join(sorted(context_data["label"])).lower())
 
     for row, result in data.iterrows():
-        FoR_label = map_context_label[result["context"]]
+        for_label = map_context_label[result["context"]]
         label = " ".join(sorted(eval(result["label"]))).lower().split()[0]
         pred = find_answer(result["GPT_predict"]).lower().replace(".", "")
         total += 1
-        total_case[FoR_label] += 1
+        total_case[for_label] += 1
         if pred in convert_relation:
             pred = convert_relation[pred]
         if pred not in simple_label:
             continue
 
-        if specific_category and FoR_label not in specific_category:
+        if specific_category and for_label not in specific_category:
             continue
         pred_list.append(pred)
         label_list.append(label)
-        acc_case[FoR_label] += 1 if pred == label else 0
+        acc_case[for_label] += 1 if pred == label else 0
         acc += 1 if pred == label else 0
 
     result = {label: 0.0 for label in set_label}
-    for FoR_label in set_label:
-        if total_case[FoR_label]:
-            result[FoR_label] = acc_case[FoR_label] * 100 / total_case[FoR_label]
+    for for_label in set_label:
+        if total_case[for_label]:
+            result[for_label] = acc_case[for_label] * 100 / total_case[for_label]
 
     return result, acc * 100 / total, pred_list, label_list
 
@@ -194,7 +195,7 @@ def main(args):
 
         for label_index, FoR_case in enumerate(DEFAULT_LABEL_SET):
             avg = 0
-            print("-" * 20)
+            print("-" * 40)
             print("{} case".format(CASES_NAMES[label_index]))
 
             for i in range(POSSILBLE_ANSWER[label_index]):
@@ -214,17 +215,19 @@ def main(args):
                 # (Same as accuracy from all cases,
                 # this is not calculate separately only the result from function is separate)
                 avg += result[0][FoR_case][i]
-            print("Accuracy: {:.2f}".format(avg), end=" ")
+            print("Accuracy: {:.2f}".format(avg))
 
-        print("Overall Accuracy ${:.1f}$ ".format(result[1]))
+        print("-" * 40)
+        print("Overall Accuracy ${:.2f}$ ".format(result[1]))
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--clear', type=bool, default=False,
+    parser.add_argument('--clear', type=bool, default=True,
                         help='Whether dataset is from C-split (clear) or A-split (ambiguous)')
 
-    parser.add_argument('--result_file', type=str, default='result_llama.csv',
+    parser.add_argument('--result_file', type=str, default='Example_QA_clear.csv',
                         help='Result file (result file must be in csv format)')
 
     parser.add_argument('--specific_label', type=str, default='',
@@ -234,3 +237,4 @@ if __name__ == '__main__':
                         help='Whether to print confusion matrix of response')
 
     args = parser.parse_args()
+    main(args)
