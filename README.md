@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ---
 ## Dataset Creation
 ### Pipeline
-![Pipeline for creating FoREST](figures/pipeline.gif)
+![Pipeline for creating FoREST](figures/pipeline.png)
 Pipeline for dataset creation, starting from selecting a locatum and relatum from available objects and then applying a spatial template to generate the spatial expression (T). 
 FoRs are assigned based on the relatum’s properties. Then, based on the number of FoRs, T is categorized.
 For example, *A cat is to the right of a dog.* (with two possible FoRs: external intrinsic and external relative) belongs to the A-split. 
@@ -29,8 +29,9 @@ Finally, Unity3D generates scene configurations, creating question-answer pairs 
 
 ### Relatum Properties for Frame of Reference Cases
 
-We provide the relatum properties used for creating each Frame of Reference case below (*Note that example images are only for illustration*),
-![Relatum Properties for Frame of Reference Cases](figures/relatum_property.gif)
+
+We provide the relatum properties used for creating each Frame of Reference case below (*Note that the images are only for visualization*),
+![Relatum Properties for Frame of Reference Cases](figures/relatum_property.png)
 
 
 ### Visualization
