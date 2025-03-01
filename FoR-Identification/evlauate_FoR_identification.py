@@ -125,8 +125,6 @@ if __name__ == '__main__':
     parser.add_argument('--result_file', type=str, default='result_llama.csv',
                         help='Result file (result file must be in csv format)')
 
-    parser.add_argument('--specific_label', type=str, default='',
-                        help='Whether to see results from specific label. Can be list "A,B" -> [A, B]')
 
     args = parser.parse_args()
     main(args)
