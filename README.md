@@ -1,5 +1,5 @@
 # FoREST: Frame of Reference Evaluation in Spatial Reasoning Tasks
-This repository is associated with the FoREST: Frame of Reference Evaluation in Spatial Reasoning Tasks
+This repository is associated with the [FoREST: Frame of Reference Evaluation in Spatial Reasoning Tasks.](https://arxiv.org/abs/2502.17775)
 paper. This repository provides the code for context generation and the evaluation tasks related to FoREST.
 
 ---
