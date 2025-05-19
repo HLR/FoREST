@@ -60,8 +60,7 @@ All option parameters are listed below,
 
 ---
 ## T2I Evaluation
-The source code of VPEval are borrowed from [VPEVAL](https://github.com/aszala/VPEval.git).
-Please also read readme from their repository and download from their repository.
+The source code of VPEval are borrowed from VPEval.
 
 **Notes**:
 
