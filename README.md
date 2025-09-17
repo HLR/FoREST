@@ -43,8 +43,8 @@ Examples of synthetic images are provided below,
 
 ![Example of image generated](figures/example_unity_images.png)
 
-**All images is downloadable using the [hugging fact dataset](https://huggingface.co/datasets/premsrit/FoREST). Please use the image id in our dataset to identify the image for each instance.**
-
+**All images is downloadable using the [hugging fact dataset](https://huggingface.co/datasets/premsrit/FoREST).**
+To identify an image, refer to the instance ID of each object. Then, using following {id}_img_{image index}, where the image index ranges from 0 to 3.
 
 [//]: # (The code for generating visualization is provided [here]&#40;&#41;. )
 
