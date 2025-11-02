@@ -1,5 +1,5 @@
 # FoREST: Frame of Reference Evaluation in Spatial Reasoning Tasks
-This repository is associated with the FoREST: Frame of Reference Evaluation in Spatial Reasoning Tasks
+This repository is associated with the [FoREST: Frame of Reference Evaluation in Spatial Reasoning Tasks.](https://arxiv.org/abs/2502.17775)
 paper. This repository provides the code for context generation and the evaluation tasks related to FoREST.
 
 ---
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ---
 ## Dataset Creation
 ### Pipeline
-![Pipeline for creating FoREST](figures/pipeline.gif)
+![Pipeline for creating FoREST](figures/pipeline.png)
 Pipeline for dataset creation, starting from selecting a locatum and relatum from available objects and then applying a spatial template to generate the spatial expression (T). 
 FoRs are assigned based on the relatum’s properties. Then, based on the number of FoRs, T is categorized.
 For example, *A cat is to the right of a dog.* (with two possible FoRs: external intrinsic and external relative) belongs to the A-split. 
@@ -29,8 +29,9 @@ Finally, Unity3D generates scene configurations, creating question-answer pairs 
 
 ### Relatum Properties for Frame of Reference Cases
 
+
 We provide the relatum properties used for creating each Frame of Reference case below (*Note that the images are only for visualization*),
-![Relatum Properties for Frame of Reference Cases](figures/relatum_property.gif)
+![Relatum Properties for Frame of Reference Cases](figures/relatum_property.png)
 
 
 ### Visualization
@@ -42,8 +43,8 @@ Examples of synthetic images are provided below,
 
 ![Example of image generated](figures/example_unity_images.png)
 
-**All images will be downloadable using the hugging fact dataset (This will be updated soon).**
-
+**All images is downloadable using the [hugging fact dataset](https://huggingface.co/datasets/premsrit/FoREST).**
+To identify an image, refer to the instance ID of each object. Then, using following {id}_img_{image index}, where the image index ranges from 0 to 3.
 
 [//]: # (The code for generating visualization is provided [here]&#40;&#41;. )
 

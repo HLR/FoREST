@@ -1,5 +1,4 @@
 # Question Answering (QA)
-![QA Evaluation](QA_evaluation.gif)
 
 ---
 

@@ -7071,7 +7071,7 @@
       },
       {
          "id": "FRCLTEXT000192",
-         "context": "A cow is on the left of a container and outside of the container.",
+         "context": "A cow is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -7079,7 +7079,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A cow is on the left of a container and outside of the container."
+         "original_context": "A cow is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT000193_front",
@@ -8343,7 +8343,7 @@
       },
       {
          "id": "FRCLTEXT000228",
-         "context": "A tree is on the left of a box and outside of the box.",
+         "context": "A tree is on the right of a box and outside of the box.",
          "label": [
             "external relative"
          ],
@@ -8351,7 +8351,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A tree is on the left of a box and outside of the box."
+         "original_context": "A tree is on the right of a box and outside of the box."
       },
       {
          "id": "FRCLTEXT000229",
@@ -8523,7 +8523,7 @@
       },
       {
          "id": "FRCLTEXT000234",
-         "context": "A deer is on the left of a container and outside of the container.",
+         "context": "A deer is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -8531,7 +8531,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A deer is on the left of a container and outside of the container."
+         "original_context": "A deer is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT000235_front",
@@ -10323,7 +10323,7 @@
       },
       {
          "id": "FRCLTEXT000283",
-         "context": "A fire hydrant is on the left of a container and outside of the container.",
+         "context": "A fire hydrant is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -10331,7 +10331,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A fire hydrant is on the left of a container and outside of the container."
+         "original_context": "A fire hydrant is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT000284_front",
@@ -13851,7 +13851,7 @@
       },
       {
          "id": "FRCLTEXT000388",
-         "context": "A water tank is on the left of a box and outside of the box.",
+         "context": "A water tank is on the right of a box and outside of the box.",
          "label": [
             "external relative"
          ],
@@ -13859,7 +13859,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A water tank is on the left of a box and outside of the box."
+         "original_context": "A water tank is on the right of a box and outside of the box."
       },
       {
          "id": "FRCLTEXT000389_front",
@@ -16251,7 +16251,7 @@
       },
       {
          "id": "FRCLTEXT000464",
-         "context": "An umbrella is on the left of a container and outside of the container.",
+         "context": "An umbrella is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -16259,7 +16259,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "An umbrella is on the left of a container and outside of the container."
+         "original_context": "An umbrella is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT000465",
@@ -20679,7 +20679,7 @@
       },
       {
          "id": "FRCLTEXT000594",
-         "context": "A chicken is on the left of a container and outside of the container.",
+         "context": "A chicken is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -20687,7 +20687,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A chicken is on the left of a container and outside of the container."
+         "original_context": "A chicken is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT000595_front",
@@ -23907,7 +23907,7 @@
       },
       {
          "id": "FRCLTEXT000681",
-         "context": "A car is on the left of a container and outside of the container.",
+         "context": "A car is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -23915,7 +23915,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A car is on the left of a container and outside of the container."
+         "original_context": "A car is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT000683_front",
@@ -27831,7 +27831,7 @@
       },
       {
          "id": "FRCLTEXT000807",
-         "context": "A water tank is on the left of a container and outside of the container.",
+         "context": "A water tank is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -27839,7 +27839,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A water tank is on the left of a container and outside of the container."
+         "original_context": "A water tank is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT000808",
@@ -33039,7 +33039,7 @@
       },
       {
          "id": "FRCLTEXT000964",
-         "context": "A bicycle is on the left of a container and outside of the container.",
+         "context": "A bicycle is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -33047,7 +33047,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A bicycle is on the left of a container and outside of the container."
+         "original_context": "A bicycle is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT000965",
@@ -33723,7 +33723,7 @@
       },
       {
          "id": "FRCLTEXT000983",
-         "context": "A chair is on the left of a box and outside of the box.",
+         "context": "A chair is on the right of a box and outside of the box.",
          "label": [
             "external relative"
          ],
@@ -33731,7 +33731,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A chair is on the left of a box and outside of the box."
+         "original_context": "A chair is on the right of a box and outside of the box."
       },
       {
          "id": "FRCLTEXT000984_front",
@@ -35139,7 +35139,7 @@
       },
       {
          "id": "FRCLTEXT001027",
-         "context": "A bag is on the left of a box and outside of the box.",
+         "context": "A bag is on the right of a box and outside of the box.",
          "label": [
             "external relative"
          ],
@@ -35147,7 +35147,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A bag is on the left of a box and outside of the box."
+         "original_context": "A bag is on the right of a box and outside of the box."
       },
       {
          "id": "FRCLTEXT001028_front",
@@ -35967,7 +35967,7 @@
       },
       {
          "id": "FRCLTEXT001050",
-         "context": "A bench is on the left of a container and outside of the container.",
+         "context": "A bench is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -35975,7 +35975,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A bench is on the left of a container and outside of the container."
+         "original_context": "A bench is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT001051_front",
@@ -43083,7 +43083,7 @@
       },
       {
          "id": "FRCLTEXT001258",
-         "context": "A bag is on the left of a container and outside of the container.",
+         "context": "A bag is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -43091,7 +43091,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A bag is on the left of a container and outside of the container."
+         "original_context": "A bag is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT001260",
@@ -44439,7 +44439,7 @@
       },
       {
          "id": "FRCLTEXT001302",
-         "context": "A dog is on the left of a container and outside of the container.",
+         "context": "A dog is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -44447,7 +44447,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A dog is on the left of a container and outside of the container."
+         "original_context": "A dog is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT001303_front",
@@ -46287,7 +46287,7 @@
       },
       {
          "id": "FRCLTEXT001356",
-         "context": "A suitcase is on the left of a container and outside of the container.",
+         "context": "A suitcase is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -46295,7 +46295,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A suitcase is on the left of a container and outside of the container."
+         "original_context": "A suitcase is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT001357_front",
@@ -47979,7 +47979,7 @@
       },
       {
          "id": "FRCLTEXT001413",
-         "context": "A suitcase is on the left of a box and outside of the box.",
+         "context": "A suitcase is on the right of a box and outside of the box.",
          "label": [
             "external relative"
          ],
@@ -47987,7 +47987,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A suitcase is on the left of a box and outside of the box."
+         "original_context": "A suitcase is on the right of a box and outside of the box."
       },
       {
          "id": "FRCLTEXT001414_front",
@@ -56847,7 +56847,7 @@
       },
       {
          "id": "FRCLTEXT001684",
-         "context": "A chair is on the left of a container and outside of the container.",
+         "context": "A chair is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -56855,7 +56855,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A chair is on the left of a container and outside of the container."
+         "original_context": "A chair is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT001685_front",
@@ -59679,7 +59679,7 @@
       },
       {
          "id": "FRCLTEXT001768",
-         "context": "A chicken is on the left of a box and outside of the box.",
+         "context": "A chicken is on the right of a box and outside of the box.",
          "label": [
             "external relative"
          ],
@@ -59687,7 +59687,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A chicken is on the left of a box and outside of the box."
+         "original_context": "A chicken is on the right of a box and outside of the box."
       },
       {
          "id": "FRCLTEXT001769_front",
@@ -60699,7 +60699,7 @@
       },
       {
          "id": "FRCLTEXT001796",
-         "context": "A bench is on the left of a box and outside of the box.",
+         "context": "A bench is on the right of a box and outside of the box.",
          "label": [
             "external relative"
          ],
@@ -60707,7 +60707,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A bench is on the left of a box and outside of the box."
+         "original_context": "A bench is on the right of a box and outside of the box."
       },
       {
          "id": "FRCLTEXT001798_front",
@@ -73503,7 +73503,7 @@
       },
       {
          "id": "FRCLTEXT002156",
-         "context": "A dog is on the left of a box and outside of the box.",
+         "context": "A dog is on the right of a box and outside of the box.",
          "label": [
             "external relative"
          ],
@@ -73511,7 +73511,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A dog is on the left of a box and outside of the box."
+         "original_context": "A dog is on the right of a box and outside of the box."
       },
       {
          "id": "FRCLTEXT002157_front",
@@ -73707,7 +73707,7 @@
       },
       {
          "id": "FRCLTEXT002166",
-         "context": "A sheep is on the left of a container and outside of the container.",
+         "context": "A sheep is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -73715,7 +73715,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A sheep is on the left of a container and outside of the container."
+         "original_context": "A sheep is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT002167_front",
@@ -74823,7 +74823,7 @@
       },
       {
          "id": "FRCLTEXT002194",
-         "context": "A cat is on the left of a box and outside of the box.",
+         "context": "A cat is on the right of a box and outside of the box.",
          "label": [
             "external relative"
          ],
@@ -74831,7 +74831,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A cat is on the left of a box and outside of the box."
+         "original_context": "A cat is on the right of a box and outside of the box."
       },
       {
          "id": "FRCLTEXT002195_front",
@@ -75015,7 +75015,7 @@
       },
       {
          "id": "FRCLTEXT002203",
-         "context": "A bus is on the left of a container and outside of the container.",
+         "context": "A bus is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -75023,7 +75023,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A bus is on the left of a container and outside of the container."
+         "original_context": "A bus is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT002204",
@@ -77847,7 +77847,7 @@
       },
       {
          "id": "FRCLTEXT002284",
-         "context": "A box is on the left of a container and outside of the container.",
+         "context": "A box is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -77855,7 +77855,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A box is on the left of a container and outside of the container."
+         "original_context": "A box is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT002285_front",
@@ -80871,7 +80871,7 @@
       },
       {
          "id": "FRCLTEXT002370",
-         "context": "A tree is on the left of a container and outside of the container.",
+         "context": "A tree is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -80879,7 +80879,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A tree is on the left of a container and outside of the container."
+         "original_context": "A tree is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT002371_front",
@@ -87591,7 +87591,7 @@
       },
       {
          "id": "FRCLTEXT002565",
-         "context": "A horse is on the left of a container and outside of the container.",
+         "context": "A horse is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -87599,7 +87599,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A horse is on the left of a container and outside of the container."
+         "original_context": "A horse is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT002566_front",
@@ -93147,7 +93147,7 @@
       },
       {
          "id": "FRCLTEXT002741",
-         "context": "An umbrella is on the left of a box and outside of the box.",
+         "context": "An umbrella is on the right of a box and outside of the box.",
          "label": [
             "external relative"
          ],
@@ -93155,7 +93155,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "An umbrella is on the left of a box and outside of the box."
+         "original_context": "An umbrella is on the right of a box and outside of the box."
       },
       {
          "id": "FRCLTEXT002742_front",
@@ -93339,7 +93339,7 @@
       },
       {
          "id": "FRCLTEXT002750",
-         "context": "A fire hydrant is on the left of a box and outside of the box.",
+         "context": "A fire hydrant is on the right of a box and outside of the box.",
          "label": [
             "external relative"
          ],
@@ -93347,7 +93347,7 @@
          "obj2": "box",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A fire hydrant is on the left of a box and outside of the box."
+         "original_context": "A fire hydrant is on the right of a box and outside of the box."
       },
       {
          "id": "FRCLTEXT002751_front",
@@ -93855,7 +93855,7 @@
       },
       {
          "id": "FRCLTEXT002764",
-         "context": "A cat is on the left of a container and outside of the container.",
+         "context": "A cat is on the right of a container and outside of the container.",
          "label": [
             "external relative"
          ],
@@ -93863,7 +93863,7 @@
          "obj2": "container",
          "obj2_dir": "nan",
          "relation": "right",
-         "original_context": "A cat is on the left of a container and outside of the container."
+         "original_context": "A cat is on the right of a container and outside of the container."
       },
       {
          "id": "FRCLTEXT002765_front",
